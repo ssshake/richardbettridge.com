@@ -3,7 +3,7 @@
     <h1>Richard Bettridge</h1>
     <div class="summary">
       <div class="">
-        <h3 class="summary-header">History</h3>
+        <h2 class="summary-header">History</h2>
         <ul>
           <li>Born 1983</li>
           <li>Living in Waterloo, Ontario, Canada</li>
@@ -14,7 +14,7 @@
         </ul>
       </div>
       <div class="">
-        <h3 class="summary-header">Interests</h3>
+        <h2 class="summary-header">Interests</h2>
         <ul>
           <li>Game and VR Dev!</li>
           <li>Web application development</li>
@@ -25,7 +25,7 @@
         </ul>
       </div>
       <div class="">
-        <h3 class="summary-header">I'm good at...</h3>
+        <h2 class="summary-header">I'm good at...</h2>
         <ul>
           <li>Adapting, picking up new skills</li>
           <li>Obsessing within reason</li>
