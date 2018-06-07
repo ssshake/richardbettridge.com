@@ -194,8 +194,14 @@ body {
 }
 
 .image {
-  width: 350px;
-  height: 275px;
+
+  width: 750px;
+  height: 575px;
+  @media only screen and (max-width: 1635px) {
+    width: 350px;
+    height: 275px;
+  }
+
   overflow-y: hidden;
   margin-bottom: 10px;
   // border: 2px solid rgb(204, 162, 113);
