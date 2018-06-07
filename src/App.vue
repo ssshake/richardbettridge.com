@@ -96,7 +96,7 @@ export default {
         {
           title: 'A good example of me',
           description: 'This video is just a good example of how I think about and do things. I break down my 3D printed VR mount.',
-          url: 'https://www.youtube.com/watch?v=1sYZhV4uoKc',
+          url: 'https://www.youtube.com/watch?v=Z4592DF0pSc',
           image: '/static/vryt.png',
         },
         {
