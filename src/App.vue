@@ -125,7 +125,7 @@ export default {
         },
         {
           title: 'Star Trek VR Game',
-          description: 'I\'m a Star Trek nerd and I made what I think is a prett impressive VR shuttle craft demo. Lots of good things to see.',
+          description: 'I\'m a Star Trek nerd and I made what I think is a pretty impressive VR shuttle craft demo. Lots of good things to see.',
           url: 'https://daggasoft.com/#/games/vrtrek',
           image: '/static/startrek.png',
         },
