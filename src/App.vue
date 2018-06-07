@@ -175,7 +175,7 @@ body {
     padding: 5px;
     transition: border 300ms ease;
     box-shadow: 2px 2px 2px rgb(126, 126, 126);
-    border-radius: 1px;
+    border-radius: 2px;
 }
 
 .item:hover{
@@ -219,7 +219,7 @@ body {
   color: rgb(49, 50, 47);
   padding: 10px;
 
-  background: rgb(226, 238, 254);
+  background: rgb(184, 216, 255);
   width: 100%;
   box-shadow: 2px 2px 2px rgb(152, 152, 152);
   border-radius: 2px;
