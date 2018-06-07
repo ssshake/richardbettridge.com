@@ -224,6 +224,9 @@ body {
   padding: 10px;
   max-width: 350px;
   padding: 20px 0;
+  // margin: 20px 0;
+  // border-top: 1px solid rgb(203, 203, 203);
+  // border-bottom: 1px solid rgb(203, 203, 203);
 }
 
 .title {
