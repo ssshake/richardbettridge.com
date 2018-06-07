@@ -31,8 +31,9 @@
           <li>Obsessing within reason</li>
           <li>Building game/app interactions</li>
           <li>Systems integration</li>
-          <li>Researching things deep</li>
+          <li>Researching things</li>
           <li>Running projects / working with clients</li>
+          <li>Magic Eye Puzzles</li>
         </ul>
       </div>
     </div>
@@ -99,9 +100,21 @@ export default {
         },
         {
           title: 'Manastorm VR',
-          description: 'My first successful retail release of a VR game',
+          description: 'My first successful retail release of a VR game. A unique VR take on magic/hearth stone. Unfinished due to no budget.',
           url: 'http://manastormgame.com',
           image: '/static/manastorm.png',
+        },
+        {
+          title: 'Dem Links',
+          description: 'This is my just for fun, mess around site. I wanted an eye sore 90\'s era website to call my own. Many easter eggs.',
+          url: 'http://demlinks.com',
+          image: '/static/demlinks.png',
+        },
+        {
+          title: 'Star Trek VR',
+          description: 'I\'m a Star Trek nerd and I made what I think is a prett impressive VR shuttle craft demo. Lots of good things to see.',
+          url: 'https://daggasoft.com/#/games/vrtrek',
+          image: '/static/startrek.png',
         },
       ]
     }
@@ -112,10 +125,12 @@ export default {
 <style lang="scss">
 
 body {
-  background: linear-gradient(#9198e5, #e66465) no-repeat;
+  background: linear-gradient(#9198e5, #64e684) no-repeat;
+  // background: linear-gradient(#9198e5, #72e664) no-repeat;
+  // background: linear-gradient(#9198e5, #e66465) no-repeat;
   margin: 0;
   padding: 0;
-  min-height: 100vh;
+  // min-height: 100vh;
 }
 
 #app {
@@ -150,12 +165,24 @@ body {
 
 .link {
   text-decoration: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.image > img {
-  border: 2px solid rgb(170, 113, 204);
+.image {
   width: 350px;
-  height: 300px;
+  height: 275px;
+  overflow-y: hidden;
+
+  // border: 2px solid rgb(204, 162, 113);
+  // border: 2px solid rgb(170, 113, 204);
+}
+.image > img {
+  width: 100%;
+  height: auto;
 }
 
 .description {
