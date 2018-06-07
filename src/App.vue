@@ -1,6 +1,11 @@
 <template>
   <div id="app">
     <h1>Richard Bettridge</h1>
+    <div class="contact-info">
+      <div><a href="http://richard.bettridge.ca" target="_blank">Richard.Bettridge.ca</a></div>
+      <div><a href="mailto:richard@bettridge.ca">Richard@Bettridge.ca</a></div>
+      <div><a href="https://twitter.com/richbettridge?lang=en" target="_blank">@RichBettridge</a></div>
+    </div>
     <div class="summary">
       <div class="">
         <h2 class="summary-header">History</h2>
@@ -37,7 +42,7 @@
         </ul>
       </div>
     </div>
-    <h2>Me, Online</h2>
+    <h2 class="me-online">Me, Online</h2>
     <div class="container">
       <div class="item" v-for="link in links">
         <a :href="link.url" target="_blank" class="link">
@@ -141,7 +146,12 @@ export default {
           url: 'https://gist.github.com/ssshake',
           image: '/static/gist.png',
         },
-
+        {
+          title: 'Linked In',
+          description: 'You\'ve mad eit this far, when not check out my linked in profile? It has like, career history and stuff.',
+          url: 'https://www.linkedin.com/in/rbettridge/',
+          image: '/static/linkedin.png',
+        },
       ]
     }
   }
@@ -149,6 +159,30 @@ export default {
 </script>
 
 <style lang="scss">
+
+@media print {
+  .item{
+    display: block !important;
+    page-break-before: always !important; 
+    page-break-inside: avoid;
+    }
+    .container {
+      display: block !important;
+    }
+    .image {
+      width: 100% !important;
+    }
+    .me-online{
+      display: none;
+    }
+    .footer {
+      display: none;
+    }
+    .contact-info {
+      display: block !important;
+    }
+
+}
 
 body {
   background: linear-gradient(160deg, #9198e5, #64e684) no-repeat;
@@ -159,12 +193,17 @@ body {
   // min-height: 100vh;
 }
 
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+.contact-info {
+  display: none;
 }
 
 .container {
@@ -183,7 +222,9 @@ body {
     transition: border 300ms ease;
     box-shadow: 2px 2px 2px rgb(126, 126, 126);
     border-radius: 2px;
+
 }
+
 
 .item:hover{
   border: 3px solid rgb(130, 226, 106);
@@ -276,6 +317,6 @@ ul {
 // }
 
 a {
-  color: #42b983;
+  color: black;
 }
 </style>
