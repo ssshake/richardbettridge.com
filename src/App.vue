@@ -94,6 +94,12 @@ export default {
           image: '/static/homeawesomation-youtube.png',
         },
         {
+          title: 'A good example of me',
+          description: 'This video is just a good example of how I think about and do things. I break down my 3D printed VR mount.',
+          url: 'https://www.youtube.com/watch?v=1sYZhV4uoKc',
+          image: '/static/vryt.png',
+        },
+        {
           title: 'Game Website',
           description: 'You can see all of my games here from game jams / hackathons, experiments, retail releases and contract work.',
           url: 'http://daggasoft.com',
@@ -135,6 +141,7 @@ export default {
           url: 'https://gist.github.com/ssshake',
           image: '/static/gist.png',
         },
+
       ]
     }
   }
