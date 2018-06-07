@@ -154,7 +154,7 @@ export default {
         },
         {
           title: 'Linked In',
-          description: 'You\'ve mad eit this far, when not check out my linked in profile? It has like, career history and stuff.',
+          description: 'You\'ve made it this far, when not check out my linked in profile? It has like, career history and stuff.',
           url: 'https://www.linkedin.com/in/rbettridge/',
           image: '/static/linkedin.png',
         },
