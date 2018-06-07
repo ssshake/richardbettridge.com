@@ -154,7 +154,7 @@ export default {
         },
         {
           title: 'Linked In',
-          description: 'You\'ve made it this far, when not check out my linked in profile? It has like, career history and stuff.',
+          description: 'You\'ve made npm run it this far, when not check out my linked in profile? It has like, career history and stuff.',
           url: 'https://www.linkedin.com/in/rbettridge/',
           image: '/static/linkedin.png',
         },
@@ -191,7 +191,7 @@ export default {
 }
 
 body {
-  background: linear-gradient(160deg, #9198e5, #64e684) no-repeat;
+  background: linear-gradient(130deg, #9198e5, #64e684) no-repeat;
   // background: linear-gradient(#9198e5, #72e664) no-repeat;
   // background: linear-gradient(#9198e5, #e66465) no-repeat;
   margin: 0;
@@ -269,7 +269,12 @@ body {
 .description {
   color: rgb(64, 64, 64);
   padding: 10px;
-  max-width: 350px;
+  // max-width: 350px;
+  max-width: 750px;
+  min-height: 40px;
+  @media only screen and (max-width: 1635px) {
+    width: 350px;
+  }
   padding: 20px 0;
   // margin: 20px 0;
   // border-top: 1px solid rgb(203, 203, 203);
@@ -283,6 +288,7 @@ body {
   padding: 10px;
 
   background: rgb(184, 216, 255);
+  // background: linear-gradient(-45deg, rgb(184, 216, 255), rgb(147, 230, 255)) no-repeat;
   width: 100%;
   box-shadow: 2px 2px 2px rgb(152, 152, 152);
   border-radius: 2px;
