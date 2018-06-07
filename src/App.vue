@@ -93,6 +93,24 @@ export default {
           image: '/static/daggasoft-youtube.png',
         },
         {
+          title: 'Peripheral Game',
+          description: 'A soon to be release, first person, physics puzzle game. I\'m really proud of this game and am excited to release it.',
+          url: 'https://peripheralgame.com',
+          image: '/static/peripheral.png',
+        },
+        {
+          title: 'Manastorm VR Game',
+          description: 'My first successful retail release of a VR game. A unique VR take on magic/hearth stone. Unfinished due to no budget.',
+          url: 'http://manastormgame.com',
+          image: '/static/manastorm.png',
+        },
+        {
+          title: 'Game Website',
+          description: 'You can see all of my games here from game jams / hackathons, experiments, retail releases and contract work.',
+          url: 'http://daggasoft.com',
+          image: '/static/daggasoft.png',
+        },
+        {
           title: 'Home Automation Youtube Channel',
           description: 'On my home automation channel I do everything from showing custom hardware projects to product reviews.',
           url: 'https://www.youtube.com/user/TekNSchtuff/videos',
@@ -105,12 +123,6 @@ export default {
           image: '/static/vryt.png',
         },
         {
-          title: 'Game Website',
-          description: 'You can see all of my games here from game jams / hackathons, experiments, retail releases and contract work.',
-          url: 'http://daggasoft.com',
-          image: '/static/daggasoft.png',
-        },
-        {
           title: 'Home Automation Blog',
           description: 'If you want to see my home automation and other projects in action check out my posts and media here.',
           url: 'http://homeawesomation.com',
@@ -121,12 +133,6 @@ export default {
           description: 'You can get an idea of my interests from my github page but the majority of my work is in private repositories.',
           url: 'https://github.com/ssshake?tab=repositories',
           image: '/static/github.png',
-        },
-        {
-          title: 'Manastorm VR Game',
-          description: 'My first successful retail release of a VR game. A unique VR take on magic/hearth stone. Unfinished due to no budget.',
-          url: 'http://manastormgame.com',
-          image: '/static/manastorm.png',
         },
         {
           title: '90\'s Styled Links Site',
