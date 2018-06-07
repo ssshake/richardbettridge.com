@@ -143,7 +143,7 @@ export default {
 <style lang="scss">
 
 body {
-  background: linear-gradient(#9198e5, #64e684) no-repeat;
+  background: linear-gradient(160deg, #9198e5, #64e684) no-repeat;
   // background: linear-gradient(#9198e5, #72e664) no-repeat;
   // background: linear-gradient(#9198e5, #e66465) no-repeat;
   margin: 0;
