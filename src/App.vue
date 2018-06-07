@@ -8,9 +8,9 @@
           <li>Born 1983</li>
           <li>Living in Waterloo, Ontario, Canada</li>
           <li><b>10</b> years working in distributed systems at BlackBerry</li>
-          <li><b>4</b> Years Experience as an applications developer at Vehikl</li>
+          <li><b>3</b> Years Experience as an applications developer at Vehikl</li>
           <li><b>5</b> Years experience working in Unity and Virtual Reality</li>
-          <li><b>1</b> Year experience working as senior developer at CTRL V Virtual Reality Arcade</li>
+          <li><b>1</b> Year  as senior developer at CTRL V Virtual Reality Arcade</li>
         </ul>
       </div>
       <div class="">
@@ -81,14 +81,26 @@ export default {
           image: '/static/daggasoft-twitter.png',
         },
         {
+          title: 'Game Dev Youtube Channel',
+          description: 'You can read about or play my games in the other links here, but why not check out the videos?',
+          url: 'https://www.youtube.com/channel/UCCcWmseNVMK0maZE11z_gfw/videos',
+          image: '/static/daggasoft-youtube.png',
+        },
+        {
+          title: 'Home Automation Youtube Channel',
+          description: 'On my home automation channel I do everything from showing custom hardware projects to product reviews.',
+          url: 'https://www.youtube.com/user/TekNSchtuff/videos',
+          image: '/static/homeawesomation-youtube.png',
+        },
+        {
           title: 'Game Website',
-          description: 'You can see all of my games here from game jams / hackathons, experiments, retail releases and contract work',
+          description: 'You can see all of my games here from game jams / hackathons, experiments, retail releases and contract work.',
           url: 'http://daggasoft.com',
           image: '/static/daggasoft.png',
         },
         {
-          title: 'Home Awesomation',
-          description: 'If you want to see my electronic and software projects about home automation check out my projects here',
+          title: 'Home Automation Blog',
+          description: 'If you want to see my electronic and software projects about home automation check out my projects here.',
           url: 'http://homeawesomation.com',
           image: '/static/homeawesomation.png',
         },
@@ -99,22 +111,28 @@ export default {
           image: '/static/github.png',
         },
         {
-          title: 'Manastorm VR',
+          title: 'Manastorm VR Game',
           description: 'My first successful retail release of a VR game. A unique VR take on magic/hearth stone. Unfinished due to no budget.',
           url: 'http://manastormgame.com',
           image: '/static/manastorm.png',
         },
         {
-          title: 'Dem Links',
+          title: '90\'s Links Site',
           description: 'This is my just for fun, mess around site. I wanted an eye sore 90\'s era website to call my own. Many easter eggs.',
           url: 'http://demlinks.com',
           image: '/static/demlinks.png',
         },
         {
-          title: 'Star Trek VR',
+          title: 'Star Trek VR Game',
           description: 'I\'m a Star Trek nerd and I made what I think is a prett impressive VR shuttle craft demo. Lots of good things to see.',
           url: 'https://daggasoft.com/#/games/vrtrek',
           image: '/static/startrek.png',
+        },
+        {
+          title: 'My Gists',
+          description: 'Some useful gists that come in handy on occasion. Some are copied and some are original.',
+          url: 'https://gist.github.com/ssshake',
+          image: '/static/gist.png',
         },
       ]
     }
@@ -176,7 +194,7 @@ body {
   width: 350px;
   height: 275px;
   overflow-y: hidden;
-
+  margin-bottom: 10px;
   // border: 2px solid rgb(204, 162, 113);
   // border: 2px solid rgb(170, 113, 204);
 }
@@ -189,6 +207,7 @@ body {
   color: rgb(64, 64, 64);
   padding: 10px;
   max-width: 350px;
+  padding: 20px 0;
 }
 
 .title {
@@ -196,6 +215,10 @@ body {
   font-size: 1rem;
   color: rgb(49, 50, 47);
   padding: 10px;
+
+  background: rgb(226, 239, 254);
+  width: 100%;
+  box-shadow: 2px 2px 2px rgb(152, 152, 152);
 }
 
 h1, h2 {
