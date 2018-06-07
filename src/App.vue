@@ -53,6 +53,7 @@
         </a>
       </div>
     </div>
+    <div class="footer">This portfolio website was not made from a template</div>
   </div>
 </template>
 
@@ -173,6 +174,8 @@ body {
     margin: 20px;
     padding: 5px;
     transition: border 300ms ease;
+    box-shadow: 2px 2px 2px rgb(126, 126, 126);
+    border-radius: 1px;
 }
 
 .item:hover{
@@ -216,9 +219,10 @@ body {
   color: rgb(49, 50, 47);
   padding: 10px;
 
-  background: rgb(226, 239, 254);
+  background: rgb(226, 238, 254);
   width: 100%;
   box-shadow: 2px 2px 2px rgb(152, 152, 152);
+  border-radius: 2px;
 }
 
 h1, h2 {
@@ -234,6 +238,11 @@ h1, h2 {
   &-header {
     // text-align: left;
   }
+}
+
+.footer {
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 ul {
