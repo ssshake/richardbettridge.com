@@ -100,7 +100,7 @@ export default {
         },
         {
           title: 'Home Automation Blog',
-          description: 'If you want to see my electronic and software projects about home automation check out my projects here.',
+          description: 'If you want to see my home automation and other projects in action check out my posts and media here.',
           url: 'http://homeawesomation.com',
           image: '/static/homeawesomation.png',
         },
