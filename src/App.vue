@@ -117,7 +117,7 @@ export default {
           image: '/static/manastorm.png',
         },
         {
-          title: '90\'s Links Site',
+          title: '90\'s Styled Links Site',
           description: 'This is my just for fun, mess around site. I wanted an eye sore 90\'s era website to call my own. Many easter eggs.',
           url: 'http://demlinks.com',
           image: '/static/demlinks.png',
