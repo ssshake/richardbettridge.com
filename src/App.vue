@@ -95,7 +95,7 @@ export default {
         {
           title: 'Peripheral Game',
           description: 'A soon to be release, first person, physics puzzle game. I\'m really proud of this game and am excited to release it.',
-          url: 'https://peripheralgame.com',
+          url: 'http://peripheralgame.com',
           image: '/static/peripheral.png',
         },
         {
