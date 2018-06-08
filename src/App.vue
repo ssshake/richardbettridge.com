@@ -58,7 +58,7 @@
         </a>
       </div>
     </div>
-    <div class="footer">This portfolio website was not made from a template</div>
+    <div class="footer">code for this site is on <a href="https://github.com/ssshake/about-me" target="_blank">github</a></div>
   </div>
 </template>
 
@@ -169,7 +169,7 @@ export default {
 @media print {
   .item{
     display: block !important;
-    page-break-before: always !important; 
+    page-break-before: always !important;
     page-break-inside: avoid;
     }
     .container {
@@ -249,8 +249,8 @@ body {
 
 .image {
 
-  width: 750px;
-  height: 575px;
+  width: 550px;
+  height: 375px;
   @media only screen and (max-width: 1635px) {
     width: 350px;
     height: 275px;
@@ -270,7 +270,7 @@ body {
   color: rgb(64, 64, 64);
   padding: 10px;
   // max-width: 350px;
-  max-width: 750px;
+  max-width: 550px;
   min-height: 40px;
   @media only screen and (max-width: 1635px) {
     width: 350px;
