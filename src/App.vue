@@ -284,10 +284,12 @@ body {
 .title {
   font-weight: 500;
   font-size: 1rem;
-  color: rgb(49, 50, 47);
+  // color: rgb(49, 50, 47);
+  color: rgb(231, 231, 231);
   padding: 10px;
 
-  background: rgb(184, 216, 255);
+  // background: rgb(184, 216, 255);
+  background: #a05de3;
   // background: linear-gradient(-45deg, rgb(184, 216, 255), rgb(147, 230, 255)) no-repeat;
   width: 100%;
   box-shadow: 2px 2px 2px rgb(152, 152, 152);
