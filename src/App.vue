@@ -144,13 +144,13 @@ export default {
           title: 'Manastorm VR',
           description: 'A Virtual Reality card game where you throw the cards to summon creatures.',
           url: 'http://manastormgame.com',
-          image: '/static/gif/manastorm.gif',
+          image: '/static/gif/manastorm-s.gif',
         },
         {
           title: 'Peripheral',
           description: 'A soon to be released, first person, physics puzzle game. I\'m really proud of this game and am excited to release it.',
           url: 'http://peripheralgame.com/',
-          image: '/static/gif/peripheral.gif',
+          image: '/static/gif/peripheral-s.gif',
         },
         {
           title: 'Super Markup World',
