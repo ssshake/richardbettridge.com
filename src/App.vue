@@ -84,13 +84,13 @@ export default {
 		title: 'The Old Net',
 		description: 'For the 30th anniversary of the Web, I created an application that lets you browse the old internet on modern and vintage computers.',
 		url: 'http://theoldnet.com/browser',
-		image: '/static/theoldnet.png',
+		image: '/static/gif/theoldnet.gif',
 	},
         {
           title: 'Game of Life',
           description: 'Cellular Automata with some pretty visuals',
           url: 'http://daggasoft.com/game-of-life',
-          image: '/static/cellular.png',
+          image: '/static/gif/cellular2.gif',
         },
         {
           title: 'I Love Car Technology',
@@ -102,7 +102,7 @@ export default {
           title: 'Commodore 64 Binary Screensaver',
           description: 'A screensaver for the c64 which reads the actual bytes in memory and prints them out on screen in a visually appealing way',
           url: 'https://www.youtube.com/watch?v=CRAjp1MIxXw&feature=youtu.be',
-          image: '/static/c64.png',
+          image: '/static/gif/binary.gif',
         },
         {
           title: 'My Game Developer Blog',
@@ -144,7 +144,7 @@ export default {
           title: 'Manastorm VR',
           description: 'A Virtual Reality card game where you throw the cards to summon creatures.',
           url: 'http://manastormgame.com',
-          image: '/static/manastorm2.jpg',
+          image: '/static/gif/manastorm.gif',
         },
         {
           title: 'Peripheral',
