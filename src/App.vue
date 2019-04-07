@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- <div id="circle" ref="circle"></div> -->
     <h1>Richard Bettridge</h1>
     <div class="summary">
       <div class="">
@@ -48,7 +47,13 @@
     </div>
     <h2>Me, Online</h2>
     <div class="container">
-      <div class="item" v-for="link in links" :key="link.url">
+      <div 
+        class="item" 
+        v-for="(link, index) in links" 
+        :key="link.url" 
+        @mouseenter.self="loadAudio(index)" 
+        @mouseleave.self="stopAudio()"
+      >
         <a :href="link.url" target="_blank" class="link">
           <div class="title">
             {{link.title}}
@@ -79,10 +84,38 @@ export default {
       } else {
         return years
       }
+    },
+    loadAudio(index){
+
+      if (this.waitAudio){
+        return;
+      }
+      if (this.currentAudio.src == newSrc && !this.currentAudio.ended ){
+        return
+      }
+
+      this.currentAudio.src = newSrc
+      this.currentAudio.volume = 0.7;
+      setTimeout(() => {
+
+        this.currentAudio.play();
+      },0)
+      
+    },
+    stopAudio(){
+      this.currentAudio.pause();
     }
+  },
+  mounted(){
+    this.currentAudio = new Audio();
+    setTimeout(() => {
+      this.waitAudio = false;
+    },1000)
   },
   data () {
     return {
+      waitAudio: true,
+      currentAudio: undefined,
       yearExperience:[
         {
           yearStart: 2005,
@@ -93,7 +126,7 @@ export default {
         {
           yearStart: 2015,
           yearEnd: undefined,
-          description: 'experience as an applications developer a',
+          description: 'experience as an applications developer at',
           where: 'Vehikl'
         },
         {
@@ -115,126 +148,108 @@ export default {
           description: 'For the 30th anniversary of the Web, I created an application that lets you browse the old internet on modern and vintage computers.',
           url: 'http://theoldnet.com/browser',
           image: '/static/gif/theoldnet.gif',
+          audio: '/static/audio/theoldnet.ogg',
         },
         {
           title: 'Game of Life',
           description: 'I made this to learn Cellular Automata. Made in HTML5 canvas and uses HSL color values to show cell age.',
           url: 'http://daggasoft.com/game-of-life',
           image: '/static/gif/cellular2.gif',
+          audio: '/static/audio/cellular.ogg',
         },
         {
           title: 'I Love Automotive Tech',
           description: 'An incomplete set of videos for the vast amount of car tech projects I\'ve done',
           url: 'https://www.youtube.com/watch?v=7EtFuVoZgu4&list=PL3fIIFgD61Tm67tLSPC4t_ghn8S8YvB7y',
           image: '/static/cars.jpg',
+          audio: '/static/audio/car.ogg',
         },
         {
           title: 'Commodore 64 Binary Screensaver',
           description: 'A screensaver for the c64 which reads the actual bytes in memory and prints them out on screen in a visually appealing way',
           url: 'https://www.youtube.com/watch?v=CRAjp1MIxXw&feature=youtu.be',
           image: '/static/gif/binary.gif',
+          audio: '/static/audio/c64.ogg',
         },
         {
           title: 'Github Projects',
           description: 'You can get an idea of my interests from my github page but the majority of my work is in private repositories.',
           url: 'https://github.com/ssshake',
           image: '/static/github.png',
+          audio: '/static/audio/github.ogg',
         },        
         {
           title: 'Manastorm VR',
           description: 'A Virtual Reality card game where you throw the cards to summon creatures into battle.',
           url: 'http://manastormgame.com',
           image: '/static/gif/manastorm.gif',
+          audio: '/static/audio/manastorm.ogg',
         },
         {
           title: '@RichBettridge',
           description: 'Looking at my twitter media posts gives a good idea about my hobbies',
           url: 'https://twitter.com/RichBettridge/media',
           image: '/static/richbettridge-twitter.png',
+          audio: '/static/audio/richbettridge.ogg',
         },
         {
           title: 'Peripheral',
           description: 'A soon to be released, first person, physics puzzle game. I\'m really proud of this game and am excited to release it.',
           url: 'http://peripheralgame.com/',
           image: '/static/gif/peripheral-s.gif',
+          audio: '/static/audio/peripheral.ogg',
         },        
         {
           title: '@DaGGaSoft',
           description: 'Looking at my game developer twitter posts gives a good idea about my work',
           url: 'https://twitter.com/DaGGaSoft/media',
           image: '/static/daggasoft-twitter.png',
+          audio: '/static/audio/daggasoft.ogg',
         },
         {
           title: 'Super Markup World',
           description: 'An award winning game, teaching javascript and css using native HTML',
           url: 'http://supermarkupworld.com',
           image: '/static/supermarkupworld.png',
+          audio: '/static/audio/supermarkupworld.ogg',
         },
         {
           title: 'My Game Developer Blog',
           description: 'If you want to get a good idea of the type of work I do please head over to my blog',
           url: 'http://daggasoft.wordpress.com',
           image: '/static/daggasoft-wordpress.png',
+          audio: '/static/audio/daggasoftblog.ogg',
         },
         {
           title: 'Vintage Computer Collection',
           description: 'I love collecting and playing with vintage computers, game consoles and other old technology',
           url: 'https://www.youtube.com/watch?v=VZ-MXqM5mYc&list=PL3fIIFgD61TlTzlaXIpAqfFBuz_-TFE8E',
           image: '/static/vintage2.png',
+          audio: '/static/audio/vintage.ogg',
         },          
         {
           title: 'Game Website',
           description: 'You can see all of my games here from game jams / hackathons, experiments, retail releases and contract work',
           url: 'http://daggasoft.com',
           image: '/static/daggasoft.png',
+          audio: '/static/audio/daggasoftcom.ogg',
         },
         {
           title: 'Computer Heritage Group',
           description: 'I am a co-founder of the Computer Heritage Group',
           url: 'http://computerheritagegroup.org',
           image: '/static/heritage.png',
+          audio: '/static/audio/heritage.ogg',
         },        
         {
           title: 'Home Awesomation',
           description: 'If you want to see my electronic and software projects about home automation check out my projects here',
           url: 'http://homeawesomation.com',
           image: '/static/homeawesomation.png',
+          audio: '/static/audio/homeawesomation.ogg',
         },
       ]
     }
-  },
-  mounted(){
-    // var mouseX=window.innerWidth/2, mouseY=window.innerHeight/2;
-
-    // var circle = {
-    //   el:this.$refs.circle,
-    //   x:window.innerWidth/2, y:window.innerHeight/2, w:100, h:100,
-    //   update:function(){
-    //     let l = this.x-this.w/2;
-    //     let t = this.y-this.h/2;
-    //     this.el.style.transform = 'translate3d('+l+'px, '+t+'px, 0)';
-    //   }
-    // }
-
-    // window.addEventListener("mousemove", function(e){
-    //   mouseX = e.clientX;
-    //   mouseY = e.clientY;
-    // })
-
-    // setInterval (move,1000/60)
-
-    // function move(){
-    //   //circle.x += (mouseX - circle.x) * 0.1; // old style
-    //   //circle.y += (mouseY - circle.y) * 0.1; // old style
-      
-    //   circle.x = lerp (circle.x, mouseX, 0.1);
-    //   circle.y = lerp (circle.y, mouseY, 0.1);
-    //   circle.update() 
-    // }
-
-    // function lerp (start, end, amt){
-    //   return (1-amt)*start+amt*end
-    // }
   }
 }
 </script>
