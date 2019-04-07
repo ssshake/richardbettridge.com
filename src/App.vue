@@ -150,7 +150,7 @@ export default {
           title: 'Peripheral',
           description: 'A soon to be released, first person, physics puzzle game. I\'m really proud of this game and am excited to release it.',
           url: 'http://peripheralgame.com/',
-          image: '/static/peripheral.png',
+          image: '/static/gif/peripheral.gif',
         },
         {
           title: 'Super Markup World',
