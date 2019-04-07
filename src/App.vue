@@ -26,8 +26,15 @@ Lead Unity developer on 3 independant simulator projects.
           <li>Living in Waterloo, Ontario, Canada</li>
           <li v-for="experience in yearExperience" :key="experience.description">
             <b>{{getYearsExperience(experience.yearStart, experience.yearEnd)}}</b>
-            years {{experience.description}} <b class="soft-bold">{{experience.where}}</b>
+            years {{experience.description}} <b>{{experience.where}}</b>
           </li>
+
+          <li><b>2-time</b> prize winner of the <b>NASA</b> Space Apps</li>
+          <li>Former <b>Linux Foundation</b> Systems Engineering Certification committee member</li>
+          <li>Contributing <b>Internet Archive</b> member</li>
+          <li><b>500,000+</b> Youtube Views</li>
+          <li>Maintained productions services with over <b>100 million</b> users</li>
+          <li><b>100,000+</b> downloads on Android and iOS</li>
         </ul>
       </div>
       <div class="">
@@ -82,7 +89,7 @@ export default {
   methods: {
     getYearsExperience(startYear, endYear = moment()){
       const years = moment(endYear, 'YYYY').diff(moment(startYear, 'YYYY'), 'years', true).toFixed(1);
-      
+
       if (years.split('.')[1] == 0){
         return years.split('.')[0]
       } else {
@@ -96,7 +103,7 @@ export default {
         {
           yearStart: 2005,
           yearEnd: 2015,
-          description: 'working in distributed systems at',
+          description: 'experience working in distributed systems at',
           where: 'BlackBerry'
         },
         {
@@ -235,7 +242,7 @@ body {
   color: #2c3e50;
 }
 
-.soft-bold{
+b{
   color: rgb(87, 86, 86);
 }
 
@@ -300,7 +307,8 @@ h1, h2 {
   padding-bottom: 20px;
 
   &-header {
-    // text-align: left;
+    text-align: left;
+    margin-left: 20px;
   }
 }
 
