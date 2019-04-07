@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" @focus="ready()"  @click="ready()">
     <h1>Richard Bettridge</h1>
     <div class="summary">
       <div class="">
@@ -57,6 +57,7 @@
         <a :href="link.url" target="_blank" class="link">
           <div class="title">
             {{link.title}}
+            <!-- <button @click="loadAudio(index)">Play</button> -->
           </div>
           <div class="description">
             {{link.description}}
@@ -86,8 +87,9 @@ export default {
       }
     },
     loadAudio(index){
-      const newSrc = this.links[index].audio;
       
+      const newSrc = this.links[index].audio;
+
       if (this.waitAudio){
         return;
       }
@@ -97,20 +99,33 @@ export default {
 
       this.currentAudio.src = newSrc
       this.currentAudio.volume = 0.7;
-      setTimeout(() => {
-
-        this.currentAudio.play();
-      },0)
+      
+      this.currentAudio.oncanplaythrough = () => {
+        console.log(this.currentAudio.src)
+        
+        const playPromise = this.currentAudio.play();
+        if (playPromise !== null){
+            playPromise.catch(() => { this.currentAudio.play(); })
+        }
+      }
       
     },
     stopAudio(){
+      if (this.waitAudio){
+        return;
+      }
       this.currentAudio.pause();
+    },
+    ready(){
+      console.log('ready')
+      this.currentAudio = new Audio();
+      this.waitAudio = false;
     }
   },
   mounted(){
-    this.currentAudio = new Audio();
+    
     setTimeout(() => {
-      this.waitAudio = false;
+
     },1000)
   },
   data () {
