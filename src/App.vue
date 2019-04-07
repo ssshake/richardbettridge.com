@@ -88,7 +88,7 @@ export default {
 	},
         {
           title: 'Game of Life',
-          description: 'Cellular Automata with some pretty visuals',
+          description: 'I made this to learn Cellular Automata. Made in HTML5 canvas and uses HSL color values to show cell age.',
           url: 'http://daggasoft.com/game-of-life',
           image: '/static/gif/cellular2.gif',
         },
@@ -112,7 +112,7 @@ export default {
         },        
         {
           title: 'Manastorm VR',
-          description: 'A Virtual Reality card game where you throw the cards to summon creatures.',
+          description: 'A Virtual Reality card game where you throw the cards to summon creatures into battle.',
           url: 'http://manastormgame.com',
           image: '/static/gif/manastorm.gif',
         },
