@@ -315,6 +315,7 @@ h1, h2 {
 ul {
   // max-width: 400px;
   text-align: left;
+  line-height: 1.3;
 }
 // ul {
 //   list-style-type: none;
