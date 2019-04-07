@@ -24,10 +24,10 @@ Lead Unity developer on 3 independant simulator projects.
         <ul>
           <li>Born 1983</li>
           <li>Living in Waterloo, Ontario, Canada</li>
-          <li><b>10</b> years working in distributed systems at BlackBerry</li>
-          <li><b>4</b> Years Experience as an applications developer at Vehikl</li>
-          <li><b>5</b> Years experience working in Unity and Virtual Reality</li>
-          <li><b>1</b> Year experience working as senior developer at CTRL V Virtual Reality Arcade</li>
+          <li v-for="experience in yearExperience" :key="experience.description">
+            <b>{{getYearsExperience(experience.yearStart, experience.yearEnd)}}</b>
+            years {{experience.description}} <b class="soft-bold">{{experience.where}}</b>
+          </li>
         </ul>
       </div>
       <div class="">
@@ -57,7 +57,7 @@ Lead Unity developer on 3 independant simulator projects.
     </div>
     <h2>Me, Online</h2>
     <div class="container">
-      <div class="item" v-for="link in links">
+      <div class="item" v-for="link in links" :key="link.url">
         <a :href="link.url" target="_blank" class="link">
           <div class="title">
             {{link.title}}
@@ -75,17 +75,56 @@ Lead Unity developer on 3 independant simulator projects.
 </template>
 
 <script>
+import moment from 'moment';
+
 export default {
   name: 'app',
+  methods: {
+    getYearsExperience(startYear, endYear = moment()){
+      const years = moment(endYear, 'YYYY').diff(moment(startYear, 'YYYY'), 'years', true).toFixed(1);
+      
+      if (years.split('.')[1] == 0){
+        return years.split('.')[0]
+      } else {
+        return years
+      }
+    }
+  },
   data () {
     return {
+      yearExperience:[
+        {
+          yearStart: 2005,
+          yearEnd: 2015,
+          description: 'working in distributed systems at',
+          where: 'BlackBerry'
+        },
+        {
+          yearStart: 2015,
+          yearEnd: undefined,
+          description: 'experience as an applications developer a',
+          where: 'Vehikl'
+        },
+        {
+          yearStart: 2013,
+          yearEnd: undefined,
+          description: 'experience working in',
+          where: 'Unity and Virtual Reality'
+        },
+        {
+          yearStart: 2017,
+          yearEnd: 2019,
+          description: 'experience working as senior developer at',
+          where: 'CTRL V Virtual Reality Arcade'
+        },              
+      ],
       links: [
-	{
-		title: 'The Old Net',
-		description: 'For the 30th anniversary of the Web, I created an application that lets you browse the old internet on modern and vintage computers.',
-		url: 'http://theoldnet.com/browser',
-		image: '/static/gif/theoldnet.gif',
-	},
+        {
+          title: 'The Old Net',
+          description: 'For the 30th anniversary of the Web, I created an application that lets you browse the old internet on modern and vintage computers.',
+          url: 'http://theoldnet.com/browser',
+          image: '/static/gif/theoldnet.gif',
+        },
         {
           title: 'Game of Life',
           description: 'I made this to learn Cellular Automata. Made in HTML5 canvas and uses HSL color values to show cell age.',
@@ -194,6 +233,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+.soft-bold{
+  color: rgb(87, 86, 86);
 }
 
 .container {
