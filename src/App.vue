@@ -86,7 +86,8 @@ export default {
       }
     },
     loadAudio(index){
-
+      const newSrc = this.links[index].audio;
+      
       if (this.waitAudio){
         return;
       }
