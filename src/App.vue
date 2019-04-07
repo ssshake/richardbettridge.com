@@ -1,22 +1,6 @@
 <template>
   <div id="app">
-
-<!-- 
-6 years working in VR
-6 years working in Unity.
-6 years working as distributed systems engineer on a 100,000,000 user catalog of services.
-4 years working in performance testing and QA for a fortune 500 company. 
-3 years working as a senior software developer shipping dozens of high quality products. 
-Shipped PC games on Steam
-Shipped mobile games on Android and iOS with over 100,000 downloads.
-Pending shipping of a game on Xbox
-Over a half million youtube views of my personal projects. 
-On the Systems Engineering Certification board for Linux
-Back to Back 1st prize winner for NASA Space Apps, globally.
-1st place winner for an international VR competition
-Senior developer at a Virtual Reality Arcade with over a dozen locations across north america
-Lead Unity developer on 3 independant simulator projects.
--->
+    <!-- <div id="circle" ref="circle"></div> -->
     <h1>Richard Bettridge</h1>
     <div class="summary">
       <div class="">
@@ -139,7 +123,7 @@ export default {
           image: '/static/gif/cellular2.gif',
         },
         {
-          title: 'I Love Car Technology',
+          title: 'I Love Automotive Tech',
           description: 'An incomplete set of videos for the vast amount of car tech projects I\'ve done',
           url: 'https://www.youtube.com/watch?v=7EtFuVoZgu4&list=PL3fIIFgD61Tm67tLSPC4t_ghn8S8YvB7y',
           image: '/static/cars.jpg',
@@ -218,11 +202,51 @@ export default {
         },
       ]
     }
+  },
+  mounted(){
+    // var mouseX=window.innerWidth/2, mouseY=window.innerHeight/2;
+
+    // var circle = {
+    //   el:this.$refs.circle,
+    //   x:window.innerWidth/2, y:window.innerHeight/2, w:100, h:100,
+    //   update:function(){
+    //     let l = this.x-this.w/2;
+    //     let t = this.y-this.h/2;
+    //     this.el.style.transform = 'translate3d('+l+'px, '+t+'px, 0)';
+    //   }
+    // }
+
+    // window.addEventListener("mousemove", function(e){
+    //   mouseX = e.clientX;
+    //   mouseY = e.clientY;
+    // })
+
+    // setInterval (move,1000/60)
+
+    // function move(){
+    //   //circle.x += (mouseX - circle.x) * 0.1; // old style
+    //   //circle.y += (mouseY - circle.y) * 0.1; // old style
+      
+    //   circle.x = lerp (circle.x, mouseX, 0.1);
+    //   circle.y = lerp (circle.y, mouseY, 0.1);
+    //   circle.update() 
+    // }
+
+    // function lerp (start, end, amt){
+    //   return (1-amt)*start+amt*end
+    // }
   }
 }
 </script>
 
 <style lang="scss">
+#circle{
+  width:100px;
+  height:100px;
+  background:#00cf8a;
+  position:absolute;
+  border-radius:50%;
+}
 
 body {
   //background: linear-gradient(#9198e5, #e66465) no-repeat;
@@ -274,13 +298,13 @@ b{
 }
 
 .image > img {
-  border: 2px solid rgb(170, 113, 204);
+  border: 2px solid #71bccc;
   width: 350px;
   height: 300px;
 }
 
 .description {
-  color: rgb(64, 64, 64);
+  color: rgb(100, 100, 100);
   padding: 10px;
   max-width: 350px;
   min-height: 60px;
