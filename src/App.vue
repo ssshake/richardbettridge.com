@@ -105,10 +105,16 @@ export default {
           image: '/static/gif/binary.gif',
         },
         {
-          title: 'My Game Developer Blog',
-          description: 'If you want to get a good idea of the type of work I do please head over to my blog',
-          url: 'http://daggasoft.wordpress.com',
-          image: '/static/daggasoft-wordpress.png',
+          title: 'Github Projects',
+          description: 'You can get an idea of my interests from my github page but the majority of my work is in private repositories.',
+          url: 'https://github.com/ssshake',
+          image: '/static/github.png',
+        },        
+        {
+          title: 'Manastorm VR',
+          description: 'A Virtual Reality card game where you throw the cards to summon creatures.',
+          url: 'http://manastormgame.com',
+          image: '/static/gif/manastorm.gif',
         },
         {
           title: '@RichBettridge',
@@ -117,40 +123,16 @@ export default {
           image: '/static/richbettridge-twitter.png',
         },
         {
-          title: '@DaGGaSoft',
-          description: 'Looking at my game developer twitter posts gives a good idea about my work',
-          url: 'https://twitter.com/DaGGaSoft/media',
-          image: '/static/daggasoft-twitter.png',
-        },
-        {
-          title: 'Game Website',
-          description: 'You can see all of my games here from game jams / hackathons, experiments, retail releases and contract work',
-          url: 'http://daggasoft.com',
-          image: '/static/daggasoft.png',
-        },
-        {
-          title: 'Home Awesomation',
-          description: 'If you want to see my electronic and software projects about home automation check out my projects here',
-          url: 'http://homeawesomation.com',
-          image: '/static/homeawesomation.png',
-        },
-        {
-          title: 'Github Projects',
-          description: 'You can get an idea of my interests from my github page but the majority of my work is in private repositories.',
-          url: 'https://github.com/ssshake',
-          image: '/static/github.png',
-        },
-        {
-          title: 'Manastorm VR',
-          description: 'A Virtual Reality card game where you throw the cards to summon creatures.',
-          url: 'http://manastormgame.com',
-          image: '/static/gif/manastorm.gif',
-        },
-        {
           title: 'Peripheral',
           description: 'A soon to be released, first person, physics puzzle game. I\'m really proud of this game and am excited to release it.',
           url: 'http://peripheralgame.com/',
           image: '/static/gif/peripheral-s.gif',
+        },        
+        {
+          title: '@DaGGaSoft',
+          description: 'Looking at my game developer twitter posts gives a good idea about my work',
+          url: 'https://twitter.com/DaGGaSoft/media',
+          image: '/static/daggasoft-twitter.png',
         },
         {
           title: 'Super Markup World',
@@ -159,16 +141,34 @@ export default {
           image: '/static/supermarkupworld.png',
         },
         {
-          title: 'Computer Heritage Group',
-          description: 'I am a co-founder of the Computer Heritage Group',
-          url: 'http://computerheritagegroup.org',
-          image: '/static/heritage.png',
+          title: 'My Game Developer Blog',
+          description: 'If you want to get a good idea of the type of work I do please head over to my blog',
+          url: 'http://daggasoft.wordpress.com',
+          image: '/static/daggasoft-wordpress.png',
         },
         {
           title: 'Vintage Computer Collection',
           description: 'I love collecting and playing with vintage computers, game consoles and other old technology',
           url: 'https://www.youtube.com/watch?v=VZ-MXqM5mYc&list=PL3fIIFgD61TlTzlaXIpAqfFBuz_-TFE8E',
           image: '/static/vintage2.png',
+        },          
+        {
+          title: 'Game Website',
+          description: 'You can see all of my games here from game jams / hackathons, experiments, retail releases and contract work',
+          url: 'http://daggasoft.com',
+          image: '/static/daggasoft.png',
+        },
+        {
+          title: 'Computer Heritage Group',
+          description: 'I am a co-founder of the Computer Heritage Group',
+          url: 'http://computerheritagegroup.org',
+          image: '/static/heritage.png',
+        },        
+        {
+          title: 'Home Awesomation',
+          description: 'If you want to see my electronic and software projects about home automation check out my projects here',
+          url: 'http://homeawesomation.com',
+          image: '/static/homeawesomation.png',
         },
       ]
     }
