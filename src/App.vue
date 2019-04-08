@@ -74,6 +74,11 @@
           <div class="image">
             <img :src="link.image" alt="">
           </div>
+          <!-- <div class="image" v-if="link.slideshow">
+            <img :src="link.image" alt="" ref="slideshow">
+          </div>
+          <div :style="{width: 300 + 'px', height: 300 +'px', 'background': 'url(\'' + link.image +'\') no-repeat 50% 0'}" v-else>
+          </div> -->
         </a>
       </div>
     </div>
@@ -86,6 +91,11 @@ import moment from 'moment';
 export default {
   name: 'app',
   methods: {
+    startSlideshow(item){
+      setInterval(() => {
+        item.image = item.slideshowImages[Math.floor(Math.random()*item.slideshowImages.length)]
+      }, 5000)
+    },
     getYearsExperience(startYear, endYear = moment()){
       const years = moment(endYear, 'YYYY').diff(moment(startYear, 'YYYY'), 'years', true).toFixed(1);
 
@@ -135,6 +145,7 @@ export default {
   },
   mounted(){
     this.ready()
+   // this.startSlideshow(this.links[2])
   },
   data () {
     return {
@@ -167,6 +178,13 @@ export default {
         },              
       ],
       links: [
+        // { //TODO
+        //   title: 'Binary Calculator',
+        //   description: 'If you want to see my electronic and software projects about home automation check out my projects here',
+        //   url: 'http://homeawesomation.com',
+        //   image: '/static/homeawesomation.png',
+        //   audio: '/static/audio/homeawesomation.mp3',
+        // },        
         {
           title: 'The Old Net',
           description: 'For the 30th anniversary of the Web, I created an application that lets you browse the old internet on modern and vintage computers.',
@@ -185,8 +203,18 @@ export default {
           title: 'I Love Automotive Tech',
           description: 'An incomplete set of videos for the vast amount of car tech projects I\'ve done',
           url: 'https://www.youtube.com/watch?v=7EtFuVoZgu4&list=PL3fIIFgD61Tm67tLSPC4t_ghn8S8YvB7y',
-          image: '/static/cars.jpg',
+          image: '/static/car/car2.jpg',
           audio: '/static/audio/car.mp3',
+          slideshow: true,
+          slideshowImages: [
+            '/static/car/car1.jpg',
+            '/static/car/car2.jpg',
+            '/static/car/car3.jpg',
+            '/static/car/car4.jpg',
+            '/static/car/car5.jpg',
+            '/static/car/car6.jpg',
+            '/static/car/car7.jpg',
+          ]
         },
         {
           title: 'Commodore 64 Binary Screensaver',
