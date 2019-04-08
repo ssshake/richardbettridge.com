@@ -1,5 +1,8 @@
 <template>
-  <div id="app" @focus="ready()"  @click="ready()">
+  <div id="app">
+    <!-- <div class="advert">
+      Take the Virtual Tour! Click the <font-awesome-icon  icon="file-audio"></font-awesome-icon> icons for Audio Commentary
+    </div> -->
     <h1>Richard Bettridge</h1>
     <div class="summary">
       <div class="">
@@ -51,17 +54,21 @@
         class="item" 
         v-for="(link, index) in links" 
         :key="link.url" 
-        @mouseenter.self="loadAudio(index)" 
-        @mouseleave.self="stopAudio()"
+        @xmouseenter.self="loadAudio(index)" 
+        @xmouseleave.self="stopAudio()"
       >
-        <a :href="link.url" target="_blank" class="link">
-          <div class="title">
-            {{link.title}}
-            <!-- <button @click="loadAudio(index)">Play</button> -->
+        <div class="title">
+          <div @click="loadAudio(index)" class="audio-button"  title="Audio Commentary">
+            <font-awesome-icon  icon="file-audio" class="audio-icon"></font-awesome-icon>
           </div>
+          <a :href="link.url" target="_blank" class="link">{{link.title}}</a>
+          <!-- <div class="arrow-right"></div> -->
+          <!-- <button @click="loadAudio(index)">Play</button> -->
+        </div>
           <div class="description">
             {{link.description}}
           </div>
+        <a :href="link.url" target="_blank" class="link">
           <div class="image">
             <img :src="link.image" alt="">
           </div>
@@ -87,11 +94,12 @@ export default {
       }
     },
     loadAudio(index){
+      console.log('load audio')
       
       const newSrc = this.links[index].audio;
 
       if (this.waitAudio){
-        return;
+        //return;
       }
       if (this.currentAudio.src == newSrc && !this.currentAudio.ended ){
         return
@@ -99,7 +107,7 @@ export default {
 
       this.currentAudio.src = newSrc
       this.currentAudio.volume = 0.7;
-      
+      console.log("LAY")
       this.currentAudio.oncanplaythrough = () => {
         console.log(this.currentAudio.src)
         
@@ -117,16 +125,14 @@ export default {
       this.currentAudio.pause();
     },
     ready(){
+
       console.log('ready')
       this.currentAudio = new Audio();
       this.waitAudio = false;
     }
   },
   mounted(){
-    
-    setTimeout(() => {
-
-    },1000)
+    this.ready()
   },
   data () {
     return {
@@ -351,6 +357,10 @@ b{
   padding: 10px;
 }
 
+.title > a {
+  color: inherit;
+}
+
 h1, h2 {
   font-weight: normal;
 }
@@ -385,4 +395,36 @@ ul {
 a {
   color: #42b983;
 }
+
+.audio-button{
+  float:left;
+  margin-right: -20px;
+  cursor: pointer;
+}
+
+.audio-icon:hover {
+  transition: color .25s ease-in-out;
+  color: rgb(205, 157, 250);
+}
+
+
+.audio-icon{
+  color: #1e88ff;
+  transition: color .25s ease-in-out;
+}
+
+.disabled {
+  color: rgb(250, 24, 24);
+}
+
+.advert{
+    background: #808080de;
+    color: white;
+    padding: 10px;
+    width: 231px;
+    border-radius: 5px;
+    // position: absolute;
+    // left: 20px;
+}
+
 </style>
