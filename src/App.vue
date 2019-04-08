@@ -171,105 +171,105 @@ export default {
           description: 'For the 30th anniversary of the Web, I created an application that lets you browse the old internet on modern and vintage computers.',
           url: 'http://theoldnet.com/browser',
           image: '/static/gif/theoldnet.gif',
-          audio: '/static/audio/theoldnet.ogg',
+          audio: '/static/audio/theoldnet.mp3',
         },
         {
           title: 'Game of Life',
           description: 'I made this to learn Cellular Automata. Made in HTML5 canvas and uses HSL color values to show cell age.',
           url: 'http://daggasoft.com/game-of-life',
           image: '/static/gif/cellular2.gif',
-          audio: '/static/audio/cellular.ogg',
+          audio: '/static/audio/cellular.mp3',
         },
         {
           title: 'I Love Automotive Tech',
           description: 'An incomplete set of videos for the vast amount of car tech projects I\'ve done',
           url: 'https://www.youtube.com/watch?v=7EtFuVoZgu4&list=PL3fIIFgD61Tm67tLSPC4t_ghn8S8YvB7y',
           image: '/static/cars.jpg',
-          audio: '/static/audio/car.ogg',
+          audio: '/static/audio/car.mp3',
         },
         {
           title: 'Commodore 64 Binary Screensaver',
           description: 'A screensaver for the c64 which reads the actual bytes in memory and prints them out on screen in a visually appealing way',
           url: 'https://www.youtube.com/watch?v=CRAjp1MIxXw&feature=youtu.be',
           image: '/static/gif/binary.gif',
-          audio: '/static/audio/c64.ogg',
+          audio: '/static/audio/c64.mp3',
         },
         {
           title: 'Github Projects',
           description: 'You can get an idea of my interests from my github page but the majority of my work is in private repositories.',
           url: 'https://github.com/ssshake',
           image: '/static/github.png',
-          audio: '/static/audio/github.ogg',
+          audio: '/static/audio/github.mp3',
         },        
         {
           title: 'Manastorm VR',
           description: 'A Virtual Reality card game where you throw the cards to summon creatures into battle.',
           url: 'http://manastormgame.com',
           image: '/static/gif/manastorm.gif',
-          audio: '/static/audio/manastorm.ogg',
+          audio: '/static/audio/manastorm.mp3',
         },
         {
           title: '@RichBettridge',
           description: 'Looking at my twitter media posts gives a good idea about my hobbies',
           url: 'https://twitter.com/RichBettridge/media',
           image: '/static/richbettridge-twitter.png',
-          audio: '/static/audio/richbettridge.ogg',
+          audio: '/static/audio/richbettridge.mp3',
         },
         {
           title: 'Peripheral',
           description: 'A soon to be released, first person, physics puzzle game. I\'m really proud of this game and am excited to release it.',
           url: 'http://peripheralgame.com/',
           image: '/static/gif/peripheral-s.gif',
-          audio: '/static/audio/peripheral.ogg',
+          audio: '/static/audio/peripheral.mp3',
         },        
         {
           title: '@DaGGaSoft',
           description: 'Looking at my game developer twitter posts gives a good idea about my work',
           url: 'https://twitter.com/DaGGaSoft/media',
           image: '/static/daggasoft-twitter.png',
-          audio: '/static/audio/daggasoft.ogg',
+          audio: '/static/audio/daggasoft.mp3',
         },
         {
           title: 'Super Markup World',
           description: 'An award winning game, teaching javascript and css using native HTML',
           url: 'http://supermarkupworld.com',
           image: '/static/supermarkupworld.png',
-          audio: '/static/audio/supermarkupworld.ogg',
+          audio: '/static/audio/supermarkupworld.mp3',
         },
         {
           title: 'My Game Developer Blog',
           description: 'If you want to get a good idea of the type of work I do please head over to my blog',
           url: 'http://daggasoft.wordpress.com',
           image: '/static/daggasoft-wordpress.png',
-          audio: '/static/audio/daggasoftblog.ogg',
+          audio: '/static/audio/daggasoftblog.mp3',
         },
         {
           title: 'Vintage Computer Collection',
           description: 'I love collecting and playing with vintage computers, game consoles and other old technology',
           url: 'https://www.youtube.com/watch?v=VZ-MXqM5mYc&list=PL3fIIFgD61TlTzlaXIpAqfFBuz_-TFE8E',
           image: '/static/vintage2.png',
-          audio: '/static/audio/vintage.ogg',
+          audio: '/static/audio/vintage.mp3',
         },          
         {
           title: 'Game Website',
           description: 'You can see all of my games here from game jams / hackathons, experiments, retail releases and contract work',
           url: 'http://daggasoft.com',
           image: '/static/daggasoft.png',
-          audio: '/static/audio/daggasoftcom.ogg',
+          audio: '/static/audio/daggasoftcom.mp3',
         },
         {
           title: 'Computer Heritage Group',
           description: 'I am a co-founder of the Computer Heritage Group',
           url: 'http://computerheritagegroup.org',
           image: '/static/heritage.png',
-          audio: '/static/audio/heritage.ogg',
+          audio: '/static/audio/heritage.mp3',
         },        
         {
           title: 'Home Awesomation',
           description: 'If you want to see my electronic and software projects about home automation check out my projects here',
           url: 'http://homeawesomation.com',
           image: '/static/homeawesomation.png',
-          audio: '/static/audio/homeawesomation.ogg',
+          audio: '/static/audio/homeawesomation.mp3',
         },
       ]
     }
@@ -360,6 +360,11 @@ b{
 
 .title > a {
   color: inherit;
+}
+
+.title > a:hover {
+  color: inherit;
+  text-decoration: underline;
 }
 
 h1, h2 {
