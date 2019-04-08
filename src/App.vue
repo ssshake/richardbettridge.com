@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <div class="advert">
-      <div>Take the Virtual Tour!</div>
-      <div>Click the <font-awesome-icon  icon="file-audio"></font-awesome-icon> icons for Audio Commentary</div>
-    </div>
+
     <h1>Richard Bettridge</h1>
     <div class="summary">
       <div class="">
@@ -50,6 +47,10 @@
       </div>
     </div>
     <h2>Me, Online</h2>
+    <div class="advert">
+      <div>Take the Virtual Tour!</div>
+      <div>Click the <font-awesome-icon  icon="file-audio"></font-awesome-icon> icons for Audio Commentary</div>
+    </div>
     <div class="container">
       <div 
         class="item" 
@@ -302,6 +303,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  user-select: none;
 }
 
 b{
@@ -323,6 +325,7 @@ b{
     padding: 5px;
     transition: border 300ms ease;
     width: 360px;
+    user-select: none;
 }
 
 .item:hover{
@@ -424,14 +427,14 @@ a {
 }
 
 .advert{
-    background: #808080de;
+    background: #808080a1;
     color: white;
     padding: 10px;
     width: 285px;
     border-radius: 5px;
     margin: 10px;
-    // position: absolute;
-    // left: 20px;
+    display: inline-block;
+    line-height: 1.5;
 }
 
 @media (max-width: 768px) {
