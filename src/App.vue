@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-    <!-- <div class="advert">
-      Take the Virtual Tour! Click the <font-awesome-icon  icon="file-audio"></font-awesome-icon> icons for Audio Commentary
-    </div> -->
+    <div class="advert">
+      <div>Take the Virtual Tour!</div>
+      <div>Click the <font-awesome-icon  icon="file-audio"></font-awesome-icon> icons for Audio Commentary</div>
+    </div>
     <h1>Richard Bettridge</h1>
     <div class="summary">
       <div class="">
@@ -106,7 +107,7 @@ export default {
       }
 
       this.currentAudio.src = newSrc
-      this.currentAudio.volume = 0.7;
+      this.currentAudio.volume = 0.9;
       console.log("LAY")
       this.currentAudio.oncanplaythrough = () => {
         console.log(this.currentAudio.src)
@@ -421,10 +422,20 @@ a {
     background: #808080de;
     color: white;
     padding: 10px;
-    width: 231px;
+    width: 285px;
     border-radius: 5px;
+    margin: 10px;
     // position: absolute;
     // left: 20px;
+}
+
+@media (max-width: 768px) {
+  .advert {
+    display: none;
+  }
+  .audio-button{
+    display: none;
+  }
 }
 
 </style>
