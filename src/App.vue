@@ -290,7 +290,7 @@ export default {
           title: 'Computer Heritage Group',
           description: 'I am a co-founder of the Computer Heritage Group',
           url: 'http://computerheritagegroup.org',
-          image: '/static/heritage.png',
+          image: '/static/heritage2.png',
           audio: '/static/audio/heritage.mp3',
         },        
         {
