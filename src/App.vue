@@ -13,7 +13,7 @@
             years {{experience.description}} <b>{{experience.where}}</b>
           </li>
 
-          <li><b>2-time</b> prize winner of the <b>NASA</b> Space Apps</li>
+          <li><b>2-time</b> prize winner of the <b>NASA</b> Space Apps Challenge</li>
           <li>Former <b>Linux Foundation</b> Systems Engineering Certification committee member</li>
           <li>Contributing <b>Internet Archive</b> member</li>
           <li><b>500,000+</b> Youtube Views</li>
