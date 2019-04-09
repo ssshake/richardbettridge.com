@@ -49,7 +49,7 @@
     <h2>Me, Online</h2>
     <div class="advert">
       <!-- <div>Take the Virtual Tour!</div> -->
-      <div>Take the Virtual Tour! Click the <font-awesome-icon  icon="file-audio"></font-awesome-icon> icons for Audio Commentary</div>
+      <div>Take the Virtual Tour! Click the <font-awesome-icon  icon="volume-up"></font-awesome-icon> icons for Audio Commentary</div>
     </div>
     <div class="container">
       <div 
@@ -61,7 +61,7 @@
       >
         <div class="title">
           <div @click="loadAudio(index)" class="audio-button"  title="Audio Commentary">
-            <font-awesome-icon  icon="file-audio" class="audio-icon"></font-awesome-icon>
+            <font-awesome-icon  icon="volume-up" class="audio-icon"></font-awesome-icon>
           </div>
           <a :href="link.url" target="_blank" class="link">{{link.title}}</a>
           <!-- <div class="arrow-right"></div> -->
