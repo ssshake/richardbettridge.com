@@ -297,7 +297,7 @@ export default {
           title: 'Home Awesomation',
           description: 'If you want to see my electronic and software projects about home automation check out my projects here',
           url: 'http://homeawesomation.com',
-          image: '/static/homeawesomation.png',
+          image: '/static/homeawesomation2.png',
           audio: '/static/audio/homeawesomation.mp3',
         },
         {
@@ -374,9 +374,23 @@ b{
 }
 
 .image > img {
-  border: 2px solid #71bccc;
-  width: 350px;
+//   width: 350px;
   height: 300px;
+  position: absolute;
+}
+
+.image {
+    background: rgb(44, 44, 44);
+    border: 2px solid #71bccc;
+    width: 350px;
+    height: 300px;
+    // margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .description {
