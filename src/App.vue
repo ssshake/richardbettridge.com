@@ -300,6 +300,13 @@ export default {
           image: '/static/homeawesomation.png',
           audio: '/static/audio/homeawesomation.mp3',
         },
+        {
+          title: 'Instagram',
+          description: 'My Instagram is comprised of my vintage collections, thrift shop hunts and projects',
+          url: 'https://www.instagram.com/richiebbbbbb/',
+          image: '/static/instagram.png',
+          audio: '/static/audio/instagram.mp3',
+        },        
       ]
     }
   }
