@@ -48,8 +48,8 @@
     </div>
     <h2>Me, Online</h2>
     <div class="advert">
-      <div>Take the Virtual Tour!</div>
-      <div>Click the <font-awesome-icon  icon="file-audio"></font-awesome-icon> icons for Audio Commentary</div>
+      <!-- <div>Take the Virtual Tour!</div> -->
+      <div>Take the Virtual Tour! Click the <font-awesome-icon  icon="file-audio"></font-awesome-icon> icons for Audio Commentary</div>
     </div>
     <div class="container">
       <div 
@@ -458,7 +458,7 @@ a {
     background: #808080a1;
     color: white;
     padding: 10px;
-    width: 285px;
+    // width: 285px;
     border-radius: 5px;
     margin: 10px;
     display: inline-block;
