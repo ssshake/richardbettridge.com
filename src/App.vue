@@ -455,7 +455,7 @@ a {
 }
 
 .advert{
-    background: #808080a1;
+    background: #40404099;
     color: white;
     padding: 10px;
     // width: 285px;
