@@ -310,7 +310,7 @@ export default {
         {
           title: 'Code Pen',
           description: 'I have a few sample projects that I did on Code Pen while learning new concepts',
-          url: 'https://codepen.io/dashboard?type=view&opts_itemType=pen&opts_filter=all&opts_orderBy=id&opts_orderDirection=0&opts_tag=0&displayType=grid&previewType=iframe&page=0    ',
+          url: 'https://codepen.io/ssshake/',
           image: '/static/codepen.png',
           audio: '/static/audio/codepen.mp3',
         },                
