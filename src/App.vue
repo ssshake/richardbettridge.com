@@ -280,10 +280,10 @@ export default {
           audio: '/static/audio/vintage.mp3',
         },          
         {
-          title: 'Game Website',
+          title: 'Game Dev Website',
           description: 'You can see all of my games here from game jams / hackathons, experiments, retail releases and contract work',
           url: 'http://daggasoft.com',
-          image: '/static/daggasoft.png',
+          image: '/static/daggasoft2.png',
           audio: '/static/audio/daggasoftcom.mp3',
         },
         {
