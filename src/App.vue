@@ -118,7 +118,7 @@ export default {
       }
 
       this.currentAudio.src = newSrc
-      this.currentAudio.volume = 0.9;
+      this.currentAudio.volume = 1;
       console.log("LAY")
       this.currentAudio.oncanplaythrough = () => {
         console.log(this.currentAudio.src)
@@ -312,7 +312,7 @@ export default {
           description: 'I have a few sample projects that I did on Code Pen while learning new concepts',
           url: 'https://codepen.io/dashboard?type=view&opts_itemType=pen&opts_filter=all&opts_orderBy=id&opts_orderDirection=0&opts_tag=0&displayType=grid&previewType=iframe&page=0    ',
           image: '/static/codepen.png',
-          audio: undefined,
+          audio: '/static/audio/codepen.mp3',
         },                
       ]
     }
