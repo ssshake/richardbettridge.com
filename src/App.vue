@@ -60,7 +60,7 @@
         @xmouseleave.self="stopAudio()"
       >
         <div class="title">
-          <div @click="loadAudio(index)" class="audio-button"  title="Audio Commentary">
+          <div v-if="link.audio" @click="loadAudio(index)" class="audio-button"  title="Audio Commentary">
             <font-awesome-icon  icon="volume-up" class="audio-icon"></font-awesome-icon>
           </div>
           <a :href="link.url" target="_blank" class="link">{{link.title}}</a>
@@ -306,7 +306,14 @@ export default {
           url: 'https://www.instagram.com/richiebbbbbb/',
           image: '/static/instagram.png',
           audio: '/static/audio/instagram.mp3',
-        },        
+        },
+        {
+          title: 'Code Pen',
+          description: 'I have a few sample projects that I did on Code Pen while learning new concepts',
+          url: 'https://codepen.io/dashboard?type=view&opts_itemType=pen&opts_filter=all&opts_orderBy=id&opts_orderDirection=0&opts_tag=0&displayType=grid&previewType=iframe&page=0    ',
+          image: '/static/codepen.png',
+          audio: undefined,
+        },                
       ]
     }
   }
