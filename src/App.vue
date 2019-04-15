@@ -301,6 +301,13 @@ export default {
           audio: '/static/audio/homeawesomation.mp3',
         },
         {
+          title: '3D Printing',
+          description: 'I think 3D printers are a powerful tool and I\'ve enjoyed making some designs to solve problems in my life.',
+          url: 'https://www.thingiverse.com/search?q=ssshake',
+          image: '/static/thingiverse.png',
+          audio: undefined,
+        },
+        {
           title: 'Instagram',
           description: 'My Instagram is comprised of my vintage collections, thrift shop hunts and projects',
           url: 'https://www.instagram.com/richiebbbbbb/',
