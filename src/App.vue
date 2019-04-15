@@ -303,7 +303,7 @@ export default {
         {
           title: '3D Printing',
           description: 'I think 3D printers are a powerful tool and I\'ve enjoyed making some designs to solve problems in my life.',
-          url: 'https://www.thingiverse.com/search?q=ssshake',
+          url: 'https://www.thingiverse.com/ssshake/designs',
           image: '/static/thingiverse.png',
           audio: undefined,
         },
