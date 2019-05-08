@@ -326,7 +326,7 @@ export default {
         {
           title: 'Instagram',
           description: 'My Instagram is comprised of my vintage collections, thrift shop hunts and projects',
-          url: 'https://www.instagram.com/richiebbbbbb/',
+          url: 'https://www.instagram.com/yallgotfloppies/',
           image: '/static/instagram.png',
           audio: '/static/audio/instagram.mp3',
         },
