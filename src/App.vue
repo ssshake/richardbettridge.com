@@ -72,7 +72,8 @@
           </div>
         <a :href="link.url" target="_blank" class="link">
           <div class="image">
-            <img :src="link.image" alt="">
+            <img v-if="link.imgObj" v-lazy="link.imgObj" >
+            <img v-else :src="link.image" alt="">
           </div>
           <!-- <div class="image" v-if="link.slideshow">
             <img :src="link.image" alt="" ref="slideshow">
@@ -189,14 +190,20 @@ export default {
           title: 'The Old Net',
           description: 'For the 30th anniversary of the Web, I created an application that lets you browse the old internet on modern and vintage computers.',
           url: 'http://theoldnet.com/browser',
-          image: '/static/gif/theoldnet.gif',
+          imgObj: {
+                src: '/static/gif/theoldnet.gif',
+                loading: '/static/gif/spinner.gif'
+          },
           audio: '/static/audio/theoldnet.mp3',
         },
         {
           title: 'Game of Life',
           description: 'I made this to learn Cellular Automata. Made in HTML5 canvas and uses HSL color values to show cell age.',
           url: 'http://daggasoft.com/game-of-life',
-          image: '/static/gif/cellular2.gif',
+          imgObj: {
+                src: '/static/gif/cellular2.gif',
+                loading: '/static/gif/spinner.gif'
+          },
           audio: '/static/audio/cellular.mp3',
         },
         {
@@ -220,7 +227,10 @@ export default {
           title: 'Commodore 64 Binary Screensaver',
           description: 'A screensaver for the c64 which reads the actual bytes in memory and prints them out on screen in a visually appealing way',
           url: 'https://www.youtube.com/watch?v=CRAjp1MIxXw&feature=youtu.be',
-          image: '/static/gif/binary.gif',
+          imgObj: {
+                src: '/static/gif/binary.gif',
+                loading: '/static/gif/spinner.gif'
+          },
           audio: '/static/audio/c64.mp3',
         },
         {
@@ -234,7 +244,10 @@ export default {
           title: 'Manastorm VR',
           description: 'A Virtual Reality card game where you throw the cards to summon creatures into battle.',
           url: 'http://manastormgame.com',
-          image: '/static/gif/manastorm.gif',
+            imgObj: {
+                src: '/static/gif/manastorm.gif',
+                loading: '/static/gif/spinner.gif'
+            },
           audio: '/static/audio/manastorm.mp3',
         },
         {
@@ -248,7 +261,10 @@ export default {
           title: 'Peripheral',
           description: 'A soon to be released, first person, physics puzzle game. I\'m really proud of this game and am excited to release it.',
           url: 'http://peripheralgame.com/',
-          image: '/static/gif/peripheral-s.gif',
+            imgObj: {
+                src: '/static/gif/peripheral-s.gif',
+                loading: '/static/gif/spinner.gif'
+            },
           audio: '/static/audio/peripheral.mp3',
         },        
         {
@@ -394,7 +410,8 @@ b{
 }
 
 .image {
-    background: rgb(44, 44, 44);
+    // background: rgb(44, 44, 44);
+    background: white;
     border: 2px solid #71bccc;
     width: 350px;
     height: 300px;
