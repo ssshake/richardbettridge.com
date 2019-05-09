@@ -54,8 +54,8 @@ export default {
 }
 
 .image {
-  // background: rgb(44, 44, 44);
-  background: white;
+  background: rgb(44, 44, 44);
+//   background: white;
   border: 2px solid #71bccc;
   width: 350px;
   height: 300px;

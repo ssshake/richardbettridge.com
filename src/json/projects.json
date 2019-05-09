@@ -5,7 +5,7 @@
         "url": "http://theoldnet.com/browser",
         "imgObj": {
             "src": "/static/gif/theoldnet.gif",
-            "loading": "/static/gif/spinner.gif"
+            "loading": "/static/gif/spinner2.gif"
         },
         "audio": "/static/audio/theoldnet.mp3"
     }, {
@@ -14,7 +14,7 @@
         "url": "http://daggasoft.com/game-of-life",
         "imgObj": {
             "src": "/static/gif/cellular2.gif",
-            "loading": "/static/gif/spinner.gif"
+            "loading": "/static/gif/spinner2.gif"
         },
         "audio": "/static/audio/cellular.mp3"
     }, {
@@ -31,7 +31,7 @@
         "url": "https://www.youtube.com/watch?v=CRAjp1MIxXw&feature=youtu.be",
         "imgObj": {
             "src": "/static/gif/binary.gif",
-            "loading": "/static/gif/spinner.gif"
+            "loading": "/static/gif/spinner2.gif"
         },
         "audio": "/static/audio/c64.mp3"
     }, {
@@ -46,7 +46,7 @@
         "url": "http://manastormgame.com",
         "imgObj": {
             "src": "/static/gif/manastorm.gif",
-            "loading": "/static/gif/spinner.gif"
+            "loading": "/static/gif/spinner2.gif"
         },
         "audio": "/static/audio/manastorm.mp3"
     }, {
@@ -61,7 +61,7 @@
         "url": "http://peripheralgame.com/",
         "imgObj": {
             "src": "/static/gif/peripheral-s.gif",
-            "loading": "/static/gif/spinner.gif"
+            "loading": "/static/gif/spinner2.gif"
         },
         "audio": "/static/audio/peripheral.mp3"
     }, {
