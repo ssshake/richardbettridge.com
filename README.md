@@ -2,9 +2,7 @@
 
 > About Richard Bettridge
 
-This project is my Portfolio / Resume and in itself a demonstration of my capabilities.
-
-I have many projects and websites on the go and the aim of this project is to compile it all into one compelling list.
+I have many projects and websites and the aim of this project is to compile it all into one compelling list.
 
 I use animations, live demonstrations and audio commentary to engage the viewer.
 
