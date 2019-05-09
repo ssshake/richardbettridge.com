@@ -24,7 +24,7 @@
         "image": "/static/car/car2.jpg",
         "audio": "/static/audio/car.mp3",
         "slideshow": true,
-        "slideshowImages": ["/static/car/car1.jpg", "/static/car/car2.jpg", "/static/car/car3.jpg", "/static/car/car4.jpg", "/static/car/car5.jpg", "/static/car/car6.jpg", "/static/car/car7.jpg"]
+        "slideshowImages": ["/static/car/car1.jpg", "/static/car/car2.jpg", "/static/car/car3.jpg", "/static/car/car4.jpg", "/static/car/car5.jpg", "/static/car/car7.jpg"]
     }, {
         "title": "Commodore 64 Binary Screensaver",
         "description": "A screensaver for the c64 which reads the actual bytes in memory and prints them out on screen in a visually appealing way",

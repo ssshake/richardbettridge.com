@@ -10,7 +10,14 @@
       </div>
     </div>
     <div class="container">
-      <Card v-for="(link) in links" :link="link" :key="link.url" v-on:load-audio="loadAudio(link)"/>
+      <Card 
+        v-for="(link) in links" 
+        :link="link" 
+        :key="link.url" 
+        v-on:load-audio="loadAudio(link)"
+      >
+
+      </Card>
     </div>
     <footer>See this Project on <a href="https://github.com/ssshake/about-me" target="_blank">Github</a></footer>
   </div>
