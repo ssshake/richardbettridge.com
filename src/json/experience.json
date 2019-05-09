@@ -1,0 +1,24 @@
+[
+    {
+        "yearStart": 2005,
+        "yearEnd": 2015,
+        "description": "experience working in distributed systems at",
+        "where": "BlackBerry"
+    },
+    {
+        "yearStart": 2015,
+        "description": "experience as an applications developer at",
+        "where": "Vehikl"
+    },
+    {
+        "yearStart": 2013,
+        "description": "experience working in",
+        "where": "Unity and Virtual Reality"
+    },
+    {
+        "yearStart": 2017,
+        "yearEnd": 2019,
+        "description": "experience working as senior developer at",
+        "where": "CTRL V Virtual Reality Arcade"
+    }
+]

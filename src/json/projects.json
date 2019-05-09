@@ -1,0 +1,127 @@
+[
+    {
+        "title": "The Old Net",
+        "description": "For the 30th anniversary of the Web, I created an application that lets you browse the old internet on modern and vintage computers.",
+        "url": "http://theoldnet.com/browser",
+        "imgObj": {
+            "src": "/static/gif/theoldnet.gif",
+            "loading": "/static/gif/spinner.gif"
+        },
+        "audio": "/static/audio/theoldnet.mp3"
+    }, {
+        "title": "Game of Life",
+        "description": "I made this to learn Cellular Automata. Made in HTML5 canvas and uses HSL color values to show cell age.",
+        "url": "http://daggasoft.com/game-of-life",
+        "imgObj": {
+            "src": "/static/gif/cellular2.gif",
+            "loading": "/static/gif/spinner.gif"
+        },
+        "audio": "/static/audio/cellular.mp3"
+    }, {
+        "title": "I Love Automotive Tech",
+        "description": "An incomplete set of videos for the vast amount of car tech projects I've done",
+        "url": "https://www.youtube.com/watch?v=7EtFuVoZgu4&list=PL3fIIFgD61Tm67tLSPC4t_ghn8S8YvB7y",
+        "image": "/static/car/car2.jpg",
+        "audio": "/static/audio/car.mp3",
+        "slideshow": true,
+        "slideshowImages": ["/static/car/car1.jpg", "/static/car/car2.jpg", "/static/car/car3.jpg", "/static/car/car4.jpg", "/static/car/car5.jpg", "/static/car/car6.jpg", "/static/car/car7.jpg"]
+    }, {
+        "title": "Commodore 64 Binary Screensaver",
+        "description": "A screensaver for the c64 which reads the actual bytes in memory and prints them out on screen in a visually appealing way",
+        "url": "https://www.youtube.com/watch?v=CRAjp1MIxXw&feature=youtu.be",
+        "imgObj": {
+            "src": "/static/gif/binary.gif",
+            "loading": "/static/gif/spinner.gif"
+        },
+        "audio": "/static/audio/c64.mp3"
+    }, {
+        "title": "Github Projects",
+        "description": "You can get an idea of my interests from my github page but the majority of my work is in private repositories.",
+        "url": "https://github.com/ssshake",
+        "image": "/static/github.png",
+        "audio": "/static/audio/github.mp3"
+    }, {
+        "title": "Manastorm VR",
+        "description": "A Virtual Reality card game where you throw the cards to summon creatures into battle.",
+        "url": "http://manastormgame.com",
+        "imgObj": {
+            "src": "/static/gif/manastorm.gif",
+            "loading": "/static/gif/spinner.gif"
+        },
+        "audio": "/static/audio/manastorm.mp3"
+    }, {
+        "title": "@RichBettridge",
+        "description": "Looking at my twitter media posts gives a good idea about my hobbies",
+        "url": "https://twitter.com/RichBettridge/media",
+        "image": "/static/richbettridge-twitter.png",
+        "audio": "/static/audio/richbettridge.mp3"
+    }, {
+        "title": "Peripheral",
+        "description": "A soon to be released, first person, physics puzzle game. I'm really proud of this game and am excited to release it.",
+        "url": "http://peripheralgame.com/",
+        "imgObj": {
+            "src": "/static/gif/peripheral-s.gif",
+            "loading": "/static/gif/spinner.gif"
+        },
+        "audio": "/static/audio/peripheral.mp3"
+    }, {
+        "title": "@DaGGaSoft",
+        "description": "Looking at my game developer twitter posts gives a good idea about my work",
+        "url": "https://twitter.com/DaGGaSoft/media",
+        "image": "/static/daggasoft-twitter.png",
+        "audio": "/static/audio/daggasoft.mp3"
+    }, {
+        "title": "Super Markup World",
+        "description": "An award winning game, teaching javascript and css using native HTML",
+        "url": "http://supermarkupworld.com",
+        "image": "/static/supermarkupworld.png",
+        "audio": "/static/audio/supermarkupworld.mp3"
+    }, {
+        "title": "My Game Developer Blog",
+        "description": "If you want to get a good idea of the type of work I do please head over to my blog",
+        "url": "http://daggasoft.wordpress.com",
+        "image": "/static/daggasoft-wordpress.png",
+        "audio": "/static/audio/daggasoftblog.mp3"
+    }, {
+        "title": "Vintage Computer Collection",
+        "description": "I love collecting and playing with vintage computers, game consoles and other old technology",
+        "url": "https://www.youtube.com/watch?v=VZ-MXqM5mYc&list=PL3fIIFgD61TlTzlaXIpAqfFBuz_-TFE8E",
+        "image": "/static/vintage2.png",
+        "audio": "/static/audio/vintage.mp3"
+    }, {
+        "title": "Game Dev Website",
+        "description": "You can see all of my games here from game jams / hackathons, experiments, retail releases and contract work",
+        "url": "http://daggasoft.com",
+        "image": "/static/daggasoft2.png",
+        "audio": "/static/audio/daggasoftcom.mp3"
+    }, {
+        "title": "Computer Heritage Group",
+        "description": "I am a co-founder of the Computer Heritage Group",
+        "url": "http://computerheritagegroup.org",
+        "image": "/static/heritage2.png",
+        "audio": "/static/audio/heritage.mp3"
+    }, {
+        "title": "Home Awesomation",
+        "description": "If you want to see my electronic and software projects about home automation check out my projects here",
+        "url": "http://homeawesomation.com",
+        "image": "/static/homeawesomation2.png",
+        "audio": "/static/audio/homeawesomation.mp3"
+    }, {
+        "title": "3D Printing",
+        "description": "I think 3D printers are a powerful tool and I've enjoyed making some designs to solve problems in my life.",
+        "url": "https://www.thingiverse.com/ssshake/designs",
+        "image": "/static/thingiverse.png"
+    }, {
+        "title": "Instagram",
+        "description": "My Instagram is comprised of my vintage collections, thrift shop hunts and projects",
+        "url": "https://www.instagram.com/yallgotfloppies/",
+        "image": "/static/instagram.png",
+        "audio": "/static/audio/instagram.mp3"
+    }, {
+        "title": "Code Pen",
+        "description": "I have a few sample projects that I did on Code Pen while learning new concepts",
+        "url": "https://codepen.io/ssshake/",
+        "image": "/static/codepen.png",
+        "audio": "/static/audio/codepen.mp3"
+    }
+]
