@@ -41,7 +41,7 @@ export default {
       if (this.link.slideshow){
         setInterval(() => {
             this.$refs.slideshow.next();
-        }, 4000);
+        }, 6000);
       }
   }
 };
