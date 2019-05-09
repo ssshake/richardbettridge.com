@@ -2,6 +2,8 @@
 
 > About Richard Bettridge
 
+Live At: http://richard.bettridge.ca
+
 I have many projects and websites and the aim of this project is to compile it all into one compelling list.
 
 I use animations, live demonstrations and audio commentary to engage the viewer.
