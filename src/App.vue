@@ -6,7 +6,7 @@
     <div class="advert">
       <div>
         Take the Virtual Tour! Click the
-        <font-awesome-icon icon="volume-up"></font-awesome-icon>icons for Audio Commentary
+        <font-awesome-icon icon="volume-up"></font-awesome-icon> icons for Audio Commentary
       </div>
     </div>
     <div class="container">

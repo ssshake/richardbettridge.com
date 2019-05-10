@@ -10,15 +10,15 @@
     <a :href="link.url" target="_blank" class="link">
       <div class="image">
         <img v-if="link.imgObj" v-lazy="link.imgObj">
-           <vue-displacement-slideshow 
-            v-else-if="link.slideshow"
-            :images="link.slideshowImages"
-            displacement="/static/displacement.png"
-            :intensity.number="0.2"
-            :speedIn.number="1.4"
-            :speedOut.number="1.4"
-            ease="Expo.easeInOut"
-            ref="slideshow"></vue-displacement-slideshow>
+        <vue-displacement-slideshow 
+        v-else-if="link.slideshow"
+        :images="link.slideshowImages"
+        displacement="/static/displacement.png"
+        :intensity.number="0.2"
+        :speedIn.number="1.4"
+        :speedOut.number="1.4"
+        ease="Expo.easeInOut"
+        ref="slideshow"></vue-displacement-slideshow>
         <img v-else :src="link.image" alt>
       </div>
     </a>
