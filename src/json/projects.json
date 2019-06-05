@@ -2,7 +2,7 @@
     {
         "title": "The Old Net",
         "description": "For the 30th anniversary of the Web, I created an application that lets you browse the old internet on modern and vintage computers.",
-        "url": "http://theoldnet.com/browser",
+        "url": "http://theoldnet.com",
         "imgObj": {
             "src": "/static/gif/theoldnet.gif",
             "loading": "/static/gif/theoldnet-preview.gif"
@@ -64,6 +64,11 @@
             "loading": "/static/gif/peripheral-s-preview.gif"
         },
         "audio": "/static/audio/peripheral.mp3"
+    }, {
+        "title": "Linux Exam Developer",
+        "description": "Define job task domains and competencies, wrote and reviewed certification content, and determined the passing score for the exam.",
+        "url": "https://www.youracclaim.com/badges/a213bf3f-e0b4-4957-a811-ebee72fcb647/linked_in",
+	"image": "/static/linux.png"
     }, {
         "title": "@DaGGaSoft",
         "description": "Looking at my game developer twitter posts gives a good idea about my work",

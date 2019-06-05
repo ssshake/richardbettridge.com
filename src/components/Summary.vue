@@ -16,8 +16,8 @@
           <b>NASA</b> Space Apps Challenge
         </li>
         <li>
-          Former
-          <b>Linux Foundation</b> Systems Engineering Certification committee member
+          Exam Developer for
+          <b>The Linux Foundation</b> Systems Engineering Certification
         </li>
         <li>
           Contributing
