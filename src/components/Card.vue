@@ -6,7 +6,7 @@
       </div>
       <a :href="link.url" target="_blank" class="link">{{link.title}}</a>
     </div>
-    <div class="description">{{link.description}}</div>
+    <!-- <div class="description">{{link.description}}</div> -->
     <a :href="link.url" target="_blank" class="link">
       <div class="image">
         <img v-if="link.imgObj" v-lazy="link.imgObj">
@@ -48,19 +48,20 @@ export default {
 </script>
 <style lang="scss">
 .item {
-  background: #fff;
-  border: 3px solid white;
-  margin: 20px;
-  padding: 5px;
-  transition: border 300ms ease;
-  width: 360px;
-  user-select: none;
+    position: relative;
+//   background: #fff;
+//   border: 3px solid white;
+//   margin: 20px;
+//   padding: 5px;
+//   transition: border 300ms ease;
+//   width: 360px;
+//   user-select: none;
 }
 
 .item:hover {
-  border: 3px solid rgb(130, 226, 106);
-  transition: all 300ms ease;
-  background: rgb(244, 255, 241);
+//   border: 3px solid rgb(130, 226, 106);
+//   transition: all 300ms ease;
+//   background: rgb(244, 255, 241);
 }
 
 .link {
@@ -76,7 +77,7 @@ export default {
 .image {
   background: rgb(44, 44, 44);
 //   background: white;
-  border: 2px solid #71bccc;
+//   border: 2px solid #71bccc;
   width: 350px;
   height: 300px;
   // margin: 0 auto;
@@ -98,11 +99,16 @@ export default {
 
 .title {
   font-weight: 500;
+  z-index: 100;
   font-size: 1.1rem;
-  background: linear-gradient(363deg, #deecff, #d0f3f1) no-repeat;
-  box-shadow: 2px 2px 2px #ddd;
-  color: rgb(49, 50, 47);
+  background: rgba(0, 0, 0, 0.582);
+//   box-shadow: 2px 2px 2px #ddd;
+  color: rgb(207, 207, 207);
   padding: 10px;
+  position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .title > a {
