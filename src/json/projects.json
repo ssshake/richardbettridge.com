@@ -8,7 +8,7 @@
             "loading": "/static/gif/cybertown-preview.gif"
         }
     }, {
-        "title": "The Old Net",
+        "title": "TheOldNet.com",
         "description": "For the 30th anniversary of the Web, I created an application that lets you browse the old internet on modern and vintage computers.",
         "url": "http://theoldnet.com",
         "imgObj": {
@@ -26,44 +26,21 @@
         },
         "audio": "/static/audio/cellular.mp3"
     }, {
-        "title": "I Love Automotive Tech",
+        "title": "Car Tech Projects",
         "description": "An incomplete set of videos for the vast amount of car tech projects I've done",
         "url": "https://www.youtube.com/watch?v=7EtFuVoZgu4&list=PL3fIIFgD61Tm67tLSPC4t_ghn8S8YvB7y",
         "image": "/static/car/car2.jpg",
         "audio": "/static/audio/car.mp3",
         "slideshow": true,
         "slideshowImages": ["/static/car/car1.jpg", "/static/car/car2.jpg", "/static/car/car3.jpg", "/static/car/car4.jpg", "/static/car/car5.jpg", "/static/car/car7.jpg"]
-    }, {
-        "title": "Commodore 64 Binary Screensaver",
-        "description": "A screensaver for the c64 which reads the actual bytes in memory and prints them out on screen in a visually appealing way",
-        "url": "https://www.youtube.com/watch?v=CRAjp1MIxXw&feature=youtu.be",
-        "imgObj": {
-            "src": "/static/gif/binary.gif",
-            "loading": "/static/gif/binary-preview.gif"
-        },
-        "audio": "/static/audio/c64.mp3"
-    }, {
-        "title": "Github Projects",
-        "description": "You can get an idea of my interests from my github page but the majority of my work is in private repositories.",
-        "url": "https://github.com/ssshake",
-        "image": "/static/github.png",
-        "audio": "/static/audio/github.mp3"
-    }, {
-        "title": "Manastorm VR",
-        "description": "A Virtual Reality card game where you throw the cards to summon creatures into battle.",
-        "url": "http://manastormgame.com",
-        "imgObj": {
-            "src": "/static/gif/manastorm.gif",
-            "loading": "/static/gif/manastorm-preview.gif"
-        },
-        "audio": "/static/audio/manastorm.mp3"
-    }, {
-        "title": "@RichBettridge",
-        "description": "Looking at my twitter media posts gives a good idea about my hobbies",
-        "url": "https://twitter.com/RichBettridge/media",
-        "image": "/static/richbettridge-twitter.png",
-        "audio": "/static/audio/richbettridge.mp3"
-    }, {
+    }, 
+    {
+        "title": "My Electronics Store",
+        "description": "I have produced some original hardware for hobbyist use, available for purchase on my store",
+        "url": "https://www.tindie.com/stores/theoldnet/",
+        "image": "/static/tindiesmall.png"
+    },
+    {
         "title": "Peripheral",
         "description": "A soon to be released, first person, physics puzzle game. I'm really proud of this game and am excited to release it.",
         "url": "http://peripheralgame.com/",
@@ -72,6 +49,40 @@
             "loading": "/static/gif/peripheral-s-preview.gif"
         },
         "audio": "/static/audio/peripheral.mp3"
+    },
+    {
+        "title": "Manastorm VR",
+        "description": "A Virtual Reality card game where you throw the cards to summon creatures into battle.",
+        "url": "http://manastormgame.com",
+        "imgObj": {
+            "src": "/static/gif/manastorm.gif",
+            "loading": "/static/gif/manastorm-preview.gif"
+        },
+        "audio": "/static/audio/manastorm.mp3"
+    }, 
+    {
+        "title": "Commodore 64 Binary Screensaver",
+        "description": "A screensaver for the c64 which reads the actual bytes in memory and prints them out on screen in a visually appealing way",
+        "url": "https://www.youtube.com/watch?v=CRAjp1MIxXw&feature=youtu.be",
+        "imgObj": {
+            "src": "/static/gif/binary.gif",
+            "loading": "/static/gif/binary-preview.gif"
+        },
+        "audio": "/static/audio/c64.mp3"
+    },     
+    {
+        "title": "Github Projects",
+        "description": "You can get an idea of my interests from my github page but the majority of my work is in private repositories.",
+        "url": "https://github.com/ssshake",
+        "image": "/static/github.png",
+        "audio": "/static/audio/github.mp3"
+    },
+    {
+        "title": "@RichBettridge",
+        "description": "Looking at my twitter media posts gives a good idea about my hobbies",
+        "url": "https://twitter.com/RichBettridge/media",
+        "image": "/static/richbettridge-twitter.png",
+        "audio": "/static/audio/richbettridge.mp3"
     }, {
         "title": "Linux Exam Developer",
         "description": "Define job task domains and competencies, wrote and reviewed certification content, and determined the passing score for the exam.",
@@ -130,11 +141,5 @@
         "url": "https://www.instagram.com/yallgotfloppies/",
         "image": "/static/instagram.png",
         "audio": "/static/audio/instagram.mp3"
-    }, {
-        "title": "Code Pen",
-        "description": "I have a few sample projects that I did on Code Pen while learning new concepts",
-        "url": "https://codepen.io/ssshake/",
-        "image": "/static/codepen.png",
-        "audio": "/static/audio/codepen.mp3"
     }
 ]

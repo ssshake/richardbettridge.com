@@ -1,7 +1,7 @@
 <template>
   <div class="summary">
     <div class>
-      <h3 class="summary-header">History</h3>
+      <!-- <h3 class="summary-header">History</h3> -->
       <ul>
         <li>Born 1983</li>
         <li>Living in Waterloo, Ontario, Canada</li>
@@ -35,7 +35,7 @@
         </li>
       </ul>
     </div>
-    <div class>
+    <!-- <div class>
       <h3 class="summary-header">Interests</h3>
       <ul>
         <li>Vintage Computers</li>
@@ -47,8 +47,8 @@
         <li>Video games and game collecting</li>
         <li>Linux!</li>
       </ul>
-    </div>
-    <div class>
+    </div> -->
+    <!-- <div class>
       <h3 class="summary-header">I'm good at...</h3>
       <ul>
         <li>Adapting, picking up new skills</li>
@@ -58,7 +58,7 @@
         <li>Researching things deep</li>
         <li>Running projects / working with clients</li>
       </ul>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
@@ -91,6 +91,19 @@ export default {
   &-header {
     text-align: left;
     margin-left: 20px;
+  }
+
+  li {
+      padding: 10px;
+  }
+
+  ul {
+      list-style-type:none;
+      font-size: 1.25rem;
+  }
+
+  b {
+      color: rgb(194, 58, 187);
   }
 }
 </style>

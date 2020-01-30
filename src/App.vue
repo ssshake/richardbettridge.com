@@ -1,14 +1,14 @@
 <template>
   <div id="app">
     <h1>Richard Bettridge</h1>
-    <Summary :experiences="yearExperience"/>
-    <h2>Me, Online</h2>
-    <div class="advert">
+    <h2>Systems, Applications, Games, Electronics...</h2>
+    <!-- <h2>Me, Online</h2> -->
+    <!-- <div class="advert">
       <div>
         Take the Virtual Tour! Click the
         <font-awesome-icon icon="volume-up"></font-awesome-icon> icons for Audio Commentary
       </div>
-    </div>
+    </div> -->
     <div class="container">
       <Card 
         v-for="(link) in links" 
@@ -19,6 +19,7 @@
 
       </Card>
     </div>
+    <Summary :experiences="yearExperience"/>
     <footer>See this Project on <a href="https://github.com/ssshake/about-me" target="_blank">Github</a></footer>
   </div>
 </template>
@@ -133,16 +134,6 @@ a {
   cursor: pointer;
 }
 
-.audio-icon:hover {
-  transition: color 0.25s ease-in-out;
-  color: rgb(205, 157, 250);
-}
-
-.audio-icon {
-  color: #1e88ff;
-  transition: color 0.25s ease-in-out;
-}
-
 .disabled {
   color: rgb(250, 24, 24);
 }
@@ -151,7 +142,7 @@ a {
   background: #40404099;
   color: white;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 0px;
   margin: 10px;
   display: inline-block;
   line-height: 1.5;
