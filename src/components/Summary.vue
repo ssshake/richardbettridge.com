@@ -6,23 +6,38 @@
         <li>Born 1983</li>
         <li>Living in Waterloo, Ontario, Canada</li>
         <li v-for="experience in experiences" :key="experience.description">
-          <b>{{getYearsExperience(experience.yearStart, experience.yearEnd)}}</b>
-          years {{experience.description}}
-          <a v-if="experience.link" target="_blank" :href="experience.link"><b>{{experience.where}}</b> <font-awesome-icon icon="link" class="link-icon"></font-awesome-icon></a>
-          <b v-else>{{experience.where}}</b>
+            <a v-if="experience.link" target="_blank" :href="experience.link">
+                <b>{{getYearsExperience(experience.yearStart, experience.yearEnd)}}</b>
+                years {{experience.description}}
+                <b>{{experience.where}}</b> 
+                <font-awesome-icon icon="link" class="link-icon"></font-awesome-icon>
+            </a>
+            <div v-else>
+                <b>{{getYearsExperience(experience.yearStart, experience.yearEnd)}}</b>
+                years {{experience.description}}
+                <b>{{experience.where}}</b> 
+            </div>
         </li>
 
         <li>
-          <b>2-time</b> prize winner of the
-          <b>NASA</b> <a target="_blank" href="https://spaceappsksc.tumblr.com/post/90398406564/winners-of-2014-kennedy-space-center-space-apps">Space Apps Challenge <font-awesome-icon icon="link" class="link-icon"></font-awesome-icon></a>
+            <a target="_blank" href="https://spaceappsksc.tumblr.com/post/90398406564/winners-of-2014-kennedy-space-center-space-apps">
+                <b>2-time</b> prize winner of the
+                <b>NASA</b> Space Apps Challenge 
+                <font-awesome-icon icon="link" class="link-icon"></font-awesome-icon>
+            </a>
         </li>
         <li>
-          Exam Developer for
-          <b>The Linux Foundation</b> <a target="_blank" href="https://training.linuxfoundation.org/certification/linux-foundation-certified-engineer-lfce/?creative=407426262693&keyword=%2Blinux%20%2Bfoundation%20%2Bcertified%20%2Bengineer&matchtype=b&network=g&device=c&pi_ad_id=407426262693&gclid=EAIaIQobChMI-omZ-Jus5wIVysDACh3bBwodEAAYASAAEgJBcfD_BwE">Systems Engineering Certification <font-awesome-icon icon="link" class="link-icon"></font-awesome-icon></a>
+            <a target="_blank" href="https://training.linuxfoundation.org/certification/linux-foundation-certified-engineer-lfce/?creative=407426262693&keyword=%2Blinux%20%2Bfoundation%20%2Bcertified%20%2Bengineer&matchtype=b&network=g&device=c&pi_ad_id=407426262693&gclid=EAIaIQobChMI-omZ-Jus5wIVysDACh3bBwodEAAYASAAEgJBcfD_BwE">
+                Exam Developer for
+                <b>The Linux Foundation</b> Systems Engineering Certification 
+                <font-awesome-icon icon="link" class="link-icon"></font-awesome-icon>
+            </a>
         </li>
         <li>
-          Contributing
-          <b>Internet Archive</b> <a target="_blank" href="https://archive.org/details/@theoldnet">member <font-awesome-icon icon="link" class="link-icon"></font-awesome-icon></a>
+            <a target="_blank" href="https://archive.org/details/@theoldnet">
+                Contributing
+                <b>Internet Archive</b> member <font-awesome-icon icon="link" class="link-icon"></font-awesome-icon>
+            </a>
         </li>
         <li>
           <b>500,000+</b> Youtube Views
@@ -112,7 +127,7 @@ export default {
   }
 
   a {
-      color: rgb(87, 86, 86);
+      color: #2c3e50;
       text-decoration: none;
   }
 
