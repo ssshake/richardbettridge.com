@@ -26,14 +26,11 @@
         },
         "audio": "/static/audio/cellular.mp3"
     }, {
-        "title": "Car Tech Projects",
-        "description": "An incomplete set of videos for the vast amount of car tech projects I've done",
-        "url": "https://www.youtube.com/watch?v=7EtFuVoZgu4&list=PL3fIIFgD61Tm67tLSPC4t_ghn8S8YvB7y",
-        "image": "/static/car/car2.jpg",
-        "audio": "/static/audio/car.mp3",
-        "slideshow": true,
-        "slideshowImages": ["/static/car/car1.jpg", "/static/car/car2.jpg", "/static/car/car3.jpg", "/static/car/car4.jpg", "/static/car/car5.jpg", "/static/car/car7.jpg"]
-    }, 
+        "title": "DemLinks.com",
+        "description": "It's not the links site that the world deserved. It was the links site that the world needed.",
+        "url": "http://demlinks.com",
+        "image": "/static/demlinks2.png"
+    },
     {
         "title": "My Electronics Store",
         "description": "I have produced some original hardware for hobbyist use, available for purchase on my store.",
@@ -69,6 +66,14 @@
             "loading": "/static/gif/binary-preview.gif"
         },
         "audio": "/static/audio/c64.mp3"
+    }, {
+        "title": "Car Tech Projects",
+        "description": "An incomplete set of videos for the vast amount of car tech projects I've done",
+        "url": "https://www.youtube.com/watch?v=7EtFuVoZgu4&list=PL3fIIFgD61Tm67tLSPC4t_ghn8S8YvB7y",
+        "image": "/static/car/car2.jpg",
+        "audio": "/static/audio/car.mp3",
+        "slideshow": true,
+        "slideshowImages": ["/static/car/car1.jpg", "/static/car/car2.jpg", "/static/car/car3.jpg", "/static/car/car4.jpg", "/static/car/car5.jpg", "/static/car/car7.jpg"]
     },     
     {
         "title": "Github Projects",
@@ -123,7 +128,8 @@
         "description": "I am a co-founder of the Computer Heritage Group. We collect, restore, study and appreciate old technology.",
         "url": "http://computerheritagegroup.org",
         "image": "/static/heritage2.png",
-        "audio": "/static/audio/heritage.mp3"
+        "audio": "/static/audio/heritage.mp3",
+        "disabled": true
     }, {
         "title": "Home Awesomation",
         "description": "You can see my electronic and software projects about home automation check out my projects here.",
@@ -141,5 +147,5 @@
         "url": "https://www.instagram.com/yallgotfloppies/",
         "image": "/static/instagram.png",
         "audio": "/static/audio/instagram.mp3"
-    }
+    }   
 ]

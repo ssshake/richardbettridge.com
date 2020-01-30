@@ -51,30 +51,6 @@
         </li>
       </ul>
     </div>
-    <!-- <div class>
-      <h3 class="summary-header">Interests</h3>
-      <ul>
-        <li>Vintage Computers</li>
-        <li>2 Door Cars</li>
-        <li>Game and VR Dev!</li>
-        <li>Web application development</li>
-        <li>Home automation</li>
-        <li>3D printing / fabricating</li>
-        <li>Video games and game collecting</li>
-        <li>Linux!</li>
-      </ul>
-    </div> -->
-    <!-- <div class>
-      <h3 class="summary-header">I'm good at...</h3>
-      <ul>
-        <li>Adapting, picking up new skills</li>
-        <li>Obsessing within reason</li>
-        <li>Building game/app interactions</li>
-        <li>Systems integration</li>
-        <li>Researching things deep</li>
-        <li>Running projects / working with clients</li>
-      </ul>
-    </div> -->
   </div>
 </template>
 <script>
@@ -120,6 +96,7 @@ export default {
   ul {
       list-style-type:none;
       font-size: 1.25rem;
+      padding-left: 0;
   }
 
   b {

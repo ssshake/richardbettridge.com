@@ -4,7 +4,6 @@
       <div class="hover-container">
         <a :href="link.url" target="_blank" class="link">
           <div class="description">{{ link.description }}</div>
-          <!-- <font-awesome-icon icon="share-square" class="share-icon"></font-awesome-icon> -->
         </a>
       </div>
       <div class="title">
@@ -20,6 +19,9 @@
           ></font-awesome-icon>
         </div>
         <a :href="link.url" target="_blank" class="link">{{ link.title }}</a>
+        <a :href="link.url" target="_blank" class="link">
+          <font-awesome-icon class="link-icon" icon="link"></font-awesome-icon
+        ></a>
       </div>
     </div>
     <div class="image">
@@ -61,6 +63,12 @@ export default {
 };
 </script>
 <style lang="scss">
+.audio-button {
+  //   float: left;
+  //   margin-right: -20px;
+  cursor: pointer;
+}
+
 .audio-icon:hover {
   transition: color 0.15s ease-in-out;
   color: rgb(205, 157, 250);
@@ -69,6 +77,10 @@ export default {
 .audio-icon {
   color: #09ff00;
   transition: color 0.15s ease-in-out;
+}
+
+.link-icon {
+    opacity: .7;
 }
 
 .share-icon {
@@ -150,6 +162,8 @@ export default {
   bottom: 0;
   left: 0;
   right: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .title > a {

@@ -2,21 +2,13 @@
   <div id="app">
     <h1>Richard Bettridge</h1>
     <h2>Systems, Applications, Games, Electronics...</h2>
-    <!-- <h2>Me, Online</h2> -->
-    <!-- <div class="advert">
-      <div>
-        Take the Virtual Tour! Click the
-        <font-awesome-icon icon="volume-up"></font-awesome-icon> icons for Audio Commentary
-      </div>
-    </div> -->
     <div class="container">
       <Card 
-        v-for="(link) in links" 
+        v-for="(link) in filteredLinks" 
         :link="link" 
         :key="link.url" 
         v-on:load-audio="loadAudio(link)"
       >
-
       </Card>
     </div>
     <Summary :experiences="yearExperience"/>
@@ -62,6 +54,13 @@ export default {
     ready() {
       this.currentAudio = new Audio();
     }
+  },
+  computed:{
+      filteredLinks(){
+          return this.links.filter((link) => {
+              return !link.disabled;
+          })
+      }
   },
   mounted() {
     this.ready();
@@ -126,12 +125,6 @@ ul {
 
 a {
   color: #42b983;
-}
-
-.audio-button {
-  float: left;
-  margin-right: -20px;
-  cursor: pointer;
 }
 
 .disabled {
