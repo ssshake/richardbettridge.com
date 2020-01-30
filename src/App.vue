@@ -86,7 +86,7 @@ export default {
 }
 
 body {
-  background: linear-gradient(188deg, #ffffff, #6480e6, #b8ffc0) no-repeat;
+  background: linear-gradient(188deg, #a8fffd, #6480e6, #b8ffc0) no-repeat;
   margin: 0;
   padding: 0;
   min-height: 100vh;
