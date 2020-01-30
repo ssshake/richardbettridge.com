@@ -3,12 +3,14 @@
         "yearStart": 2005,
         "yearEnd": 2015,
         "description": "experience working in distributed systems at",
-        "where": "BlackBerry"
+        "where": "BlackBerry",
+        "link": "//blackberry.com"
     },
     {
         "yearStart": 2015,
         "description": "experience as an applications developer at",
-        "where": "Vehikl"
+        "where": "Vehikl",
+        "link": "//vehikl.com"
     },
     {
         "yearStart": 2013,
@@ -19,6 +21,7 @@
         "yearStart": 2017,
         "yearEnd": 2019,
         "description": "experience working as senior developer at",
-        "where": "CTRL V Virtual Reality Arcade"
+        "where": "CTRL V Virtual Reality Arcade",
+        "link": "//ctrlv.ca"
     }
 ]

@@ -72,6 +72,7 @@ export default {
 //   background: #fff;
 //   border: 3px solid white;
   margin: 16px;
+//   border: 1px solid rgba(0, 0, 0, 0.233);
 //   padding: 5px;
 //   transition: border 300ms ease;
 //   width: 360px;
