@@ -70,7 +70,7 @@ export default {
     getYearsExperience(startYear, endYear = moment()) {
       const years = moment(endYear, "YYYY")
         .diff(moment(startYear, "YYYY"), "years", true)
-        .toFixed(1);
+        .toFixed(0);
 
       if (years.split(".")[1] == 0) {
         return years.split(".")[0];
