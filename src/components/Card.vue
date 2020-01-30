@@ -113,6 +113,8 @@ export default {
   color: #ebebeb;
   background: rgba(0, 0, 0, 0.774);
   padding: 10px;
+  font-weight: bold;
+  padding: 16px;
 //   max-width: 350px;
 //   min-height: 60px;
   text-align: left;
