@@ -104,7 +104,7 @@ export default {
 
 .description {
   color: #ebebeb;
-  background: rgba(0, 0, 0, 0.959);
+  background: rgba(0, 0, 0, 0.849);
   padding: 10px;
   font-weight: bold;
   padding: 16px;

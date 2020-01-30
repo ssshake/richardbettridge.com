@@ -1,11 +1,11 @@
 [
     {
-        "title": "Cyber Town Museum",
-        "description": "Using webgl and many assets from the Internet Archive I wanted to experiment with this VR social platform from the late 90's",
+        "title": "VRML Museum",
+        "description": "Using WebGL and many assets from the Internet Archive I wanted to experiment with the VR Markup Language the late 90's",
         "url": "http://cybertown-museum.theoldnet.com/",
         "imgObj": {
-            "src": "/static/gif/cybertown.gif",
-            "loading": "/static/gif/cybertown-preview.gif"
+            "src": "/static/gif/vrml.gif",
+            "loading": "/static/gif/vrml-preview.gif"
         }
     }, {
         "title": "TheOldNet.com",
