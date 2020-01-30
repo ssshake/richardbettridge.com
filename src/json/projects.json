@@ -61,8 +61,8 @@
         "audio": "/static/audio/manastorm.mp3"
     }, 
     {
-        "title": "Commodore 64 Binary Screensaver",
-        "description": "A screensaver for the c64 which reads the actual bytes in memory and prints them out on screen in a visually appealing way",
+        "title": "C64 Binary Screensaver",
+        "description": "A screensaver for the Commodore 64 which reads the actual bytes in memory and prints them out on screen in a visually appealing way",
         "url": "https://www.youtube.com/watch?v=CRAjp1MIxXw&feature=youtu.be",
         "imgObj": {
             "src": "/static/gif/binary.gif",
