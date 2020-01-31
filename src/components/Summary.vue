@@ -40,7 +40,7 @@
             </a>
         </li>
         <li>
-          Maintained productions services with over
+          <b>Built</b> and <b>Supported</b> production services with over
           <b>100 million</b> users
         </li>        
         <li>
