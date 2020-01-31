@@ -71,7 +71,7 @@ export default {
 
 .audio-icon:hover {
   transition: color 0.15s ease-in-out;
-  color: rgb(205, 157, 250);
+  color: rgb(229, 100, 255);   
 }
 
 .audio-icon {
@@ -80,17 +80,17 @@ export default {
 }
 
 .link-icon {
-    opacity: .7;
+    color: rgb(158, 158, 158);
 }
 
-.share-icon {
-  font-size: 4rem;
-  color: rgba(0, 0, 0, 0.466);
+.link-icon:hover {
+  transition: color 0.15s ease-in-out;
+  color: rgb(229, 100, 255);   
 }
 
 .item {
   position: relative;
-  margin: 16px;
+  margin: 20px;
 }
 
 .link {
@@ -158,7 +158,7 @@ export default {
   font-weight: bold;
   background: rgba(0, 0, 0, 0.774);
   color: rgb(207, 207, 207);
-  padding: 10px;
+  padding: 16px;
   bottom: 0;
   left: 0;
   right: 0;
