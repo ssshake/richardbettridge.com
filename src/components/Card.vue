@@ -103,7 +103,7 @@ export default {
 }
 
 .image {
-  background: rgb(44, 44, 44);
+  background: rgba(0, 0, 0, 0.658);
   width: 350px;
   height: 300px;
   overflow: hidden;

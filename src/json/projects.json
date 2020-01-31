@@ -67,62 +67,55 @@
         },
         "audio": "/static/audio/c64.mp3"
     }, {
+        "title": "Super Markup World",
+        "description": "An award winning game, teaching javascript and css using native HTML.",
+        "url": "http://supermarkupworld.com",
+        "image": "/static/supermarkupworld.png",
+        "audio": "/static/audio/supermarkupworld.mp3"     
+    }, {
+            "title": "DaGGaSoft.com",
+            "description": "You can see all of my games here from game jams / hackathons, experiments, retail releases and contract work.",
+            "url": "http://daggasoft.com",
+            "image": "/static/daggasoft2.png",
+            "audio": "/static/audio/daggasoftcom.mp3"             
+    }, {
+        "title": "Software Repositories",
+        "description": "You can get an idea of what I do from checking out my GitHub page.",
+        "url": "https://github.com/ssshake",
+        "image": "/static/github.png",
+        "audio": "/static/audio/github.mp3"
+    }, {
+        "title": "Linux Exam Developer",
+        "description": "Defined job task domains and competencies, wrote and reviewed certification content, and determined the passing score for the exam.",
+        "url": "https://www.youracclaim.com/badges/a213bf3f-e0b4-4957-a811-ebee72fcb647/linked_in",
+        "image": "/static/linux.png"
+    }, {
         "title": "Car Tech Projects",
         "description": "An incomplete set of videos for the vast amount of car tech projects I've done",
         "url": "https://www.youtube.com/watch?v=7EtFuVoZgu4&list=PL3fIIFgD61Tm67tLSPC4t_ghn8S8YvB7y",
         "image": "/static/car/car2.jpg",
         "audio": "/static/audio/car.mp3",
         "slideshow": true,
-        "slideshowImages": ["/static/car/car1.jpg", "/static/car/car2.jpg", "/static/car/car3.jpg", "/static/car/car4.jpg", "/static/car/car5.jpg", "/static/car/car7.jpg"]
-    },     
-    {
-        "title": "Github Projects",
-        "description": "You can get an idea of my interests from my github page but the majority of my work is in private repositories.",
-        "url": "https://github.com/ssshake",
-        "image": "/static/github.png",
-        "audio": "/static/audio/github.mp3"
-    },
-    {
-        "title": "@RichBettridge",
-        "description": "Looking at my twitter media posts gives a good idea about my hobbies.",
-        "url": "https://twitter.com/RichBettridge/media",
-        "image": "/static/richbettridge-twitter.png",
-        "audio": "/static/audio/richbettridge.mp3"
+        "slideshowImages": ["/static/car/car1.jpg", "/static/car/car2.jpg", "/static/car/car3.jpg", "/static/car/car4.jpg", "/static/car/car5.jpg", "/static/car/car7.jpg"]         
     }, {
-        "title": "Linux Exam Developer",
-        "description": "Defined job task domains and competencies, wrote and reviewed certification content, and determined the passing score for the exam.",
-        "url": "https://www.youracclaim.com/badges/a213bf3f-e0b4-4957-a811-ebee72fcb647/linked_in",
-	"image": "/static/linux.png"
-    }, {
+        
         "title": "@DaGGaSoft",
         "description": "Looking at my game developer twitter posts gives a good idea about my work.",
         "url": "https://twitter.com/DaGGaSoft/media",
         "image": "/static/daggasoft-twitter.png",
         "audio": "/static/audio/daggasoft.mp3"
     }, {
-        "title": "Super Markup World",
-        "description": "An award winning game, teaching javascript and css using native HTML.",
-        "url": "http://supermarkupworld.com",
-        "image": "/static/supermarkupworld.png",
-        "audio": "/static/audio/supermarkupworld.mp3"
-    }, {
-        "title": "My Game Developer Blog",
-        "description": "If you want to get a good idea of the type of work I do please head over to my blog.",
-        "url": "http://daggasoft.wordpress.com",
-        "image": "/static/daggasoft-wordpress.png",
-        "audio": "/static/audio/daggasoftblog.mp3"
-    }, {
+        "title": "@RichBettridge",
+        "description": "Looking at my twitter media posts gives a good idea about my hobbies.",
+        "url": "https://twitter.com/RichBettridge/media",
+        "image": "/static/richbettridge-twitter.png",
+        "audio": "/static/audio/richbettridge.mp3"
+    }, {        
         "title": "Vintage Computer Collection",
         "description": "I love collecting and playing with vintage computers, game consoles and other old technology.",
         "url": "https://www.youtube.com/watch?v=VZ-MXqM5mYc&list=PL3fIIFgD61TlTzlaXIpAqfFBuz_-TFE8E",
         "image": "/static/vintage2.png",
         "audio": "/static/audio/vintage.mp3"
-    }, {
-        "title": "Game Dev Website",
-        "description": "You can see all of my games here from game jams / hackathons, experiments, retail releases and contract work.",
-        "url": "http://daggasoft.com",
-        "image": "/static/daggasoft2.png",
-        "audio": "/static/audio/daggasoftcom.mp3"
     }, {
         "title": "Computer Heritage Group",
         "description": "I am a co-founder of the Computer Heritage Group. We collect, restore, study and appreciate old technology.",
@@ -137,6 +130,12 @@
         "image": "/static/homeawesomation2.png",
         "audio": "/static/audio/homeawesomation.mp3"
     }, {
+        "title": "My Game Developer Blog",
+        "description": "If you want to get a good idea of the type of work I do please head over to my blog.",
+        "url": "http://daggasoft.wordpress.com",
+        "image": "/static/daggasoft-wordpress.png",
+        "audio": "/static/audio/daggasoftblog.mp3"
+    }, {        
         "title": "3D Printing",
         "description": "I think 3D printers are a powerful tool and I've enjoyed making some designs to solve problems in my life.",
         "url": "https://www.thingiverse.com/ssshake/designs",
