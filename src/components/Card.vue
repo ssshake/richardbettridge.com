@@ -62,7 +62,7 @@ export default {
   }
 };
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .audio-button {
   //   float: left;
   //   margin-right: -20px;
