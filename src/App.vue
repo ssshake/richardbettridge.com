@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1>Richard Bettridge</h1>
-    <h2>Systems, Applications, Games, Electronics...</h2>
+    <h2>Systems, Applications, Games, Electronics</h2>
     <div class="container">
       <Card 
         v-for="(link) in filteredLinks" 
