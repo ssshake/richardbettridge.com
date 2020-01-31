@@ -40,11 +40,11 @@
             </a>
         </li>
         <li>
-          <b>500,000+</b> Youtube Views
-        </li>
-        <li>
           Maintained productions services with over
           <b>100 million</b> users
+        </li>        
+        <li>
+          <b>500,000+</b> Youtube Views
         </li>
         <li>
           <b>100,000+</b> downloads on Android and iOS
