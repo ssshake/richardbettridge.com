@@ -1,7 +1,12 @@
 <template>
   <div id="app">
-    <h1>Richard Bettridge</h1>
-    <h2>Systems, Applications, Games, Electronics</h2>
+    <h1>
+	<img src="/static/headshot-binary-sunrise-square.png" style="border-radius:100%;width:260px;height:260px;" />
+    </h1>
+    <h1>
+	Richard Bettridge
+    </h1>
+<!--    <h2>Systems, Applications, Games, Electronics</h2>   -->
     <div class="container">
       <Card 
         v-for="(link) in filteredLinks" 

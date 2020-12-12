@@ -3,8 +3,7 @@
     <div class>
       <!-- <h3 class="summary-header">History</h3> -->
       <ul>
-        <li>Born 1983</li>
-        <li>Living in Waterloo, Ontario, Canada</li>
+        <li>Deploy Date: 1983</li>
         <li v-for="experience in experiences" :key="experience.description">
             <a v-if="experience.link" target="_blank" :href="experience.link">
                 <b>{{getYearsExperience(experience.yearStart, experience.yearEnd)}}</b>
