@@ -8,16 +8,7 @@
             "loading": "/static/gif/blender-preview.png"
         }
     }, 
-
     {
-        "title": "VRML Museum",
-        "description": "Using WebGL and many assets from the Internet Archive I wanted to experiment with the VR Markup Language the late 90's",
-        "url": "http://cybertown-museum.theoldnet.com/",
-        "imgObj": {
-            "src": "/static/gif/vrml.gif",
-            "loading": "/static/gif/vrml-preview.gif"
-        }
-    }, {
         "title": "TheOldNet.com",
         "description": "For the 30th anniversary of the Web, I created an application that lets you browse the old internet on modern and vintage computers.",
         "url": "http://theoldnet.com",
@@ -26,7 +17,14 @@
             "loading": "/static/gif/theoldnet-preview.gif"
         },
         "audio": "/static/audio/theoldnet.mp3"
-    }, {
+    }, 
+    {
+        "title": "My Electronics Store",
+        "description": "I have produced some original hardware for hobbyist use, available for purchase on my store.",
+        "url": "https://www.tindie.com/stores/theoldnet/",
+        "image": "/static/storecat.png"
+    },
+    {
         "title": "Game of Life",
         "description": "I made this to learn Cellular Automata. Made in HTML5 canvas and uses HSL color values to show cell age.",
         "url": "http://daggasoft.com/game-of-life",
@@ -35,18 +33,23 @@
             "loading": "/static/gif/cellular2-preview.gif"
         },
         "audio": "/static/audio/cellular.mp3"
-    }, {
+    },
+    {
+        "title": "VRML Museum",
+        "description": "Using WebGL and many assets from the Internet Archive I wanted to experiment with the VR Markup Language the late 90's",
+        "url": "http://cybertown-museum.theoldnet.com/",
+        "imgObj": {
+            "src": "/static/gif/vrml.gif",
+            "loading": "/static/gif/vrml-preview.gif"
+        }
+    },      
+    {
         "title": "DemLinks.com",
         "description": "It's not the links site that the world deserved. It was the links site that the world needed.",
         "url": "http://demlinks.com",
         "image": "/static/demlinks2.png"
     },
-    {
-        "title": "My Electronics Store",
-        "description": "I have produced some original hardware for hobbyist use, available for purchase on my store.",
-        "url": "https://www.tindie.com/stores/theoldnet/",
-        "image": "/static/tindiesmall.png"
-    },
+
     {
         "title": "Peripheral",
         "description": "A soon to be released, first person, physics puzzle game. I'm really proud of this game and am excited to release it.",
