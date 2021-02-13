@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1>
-	<img src="/static/headshot-binary-sunrise-square.png" style="border-radius:100%;width:260px;height:260px;" />
+	<img src="/static/headshot-neck-koladascope-square.png" style="border-radius:100%;width:260px;height:260px;" />
     </h1>
     <h1>
 	Richard Bettridge
