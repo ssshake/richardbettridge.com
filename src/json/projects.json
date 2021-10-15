@@ -36,8 +36,8 @@
     },
     {
         "title": "Car Tech Projects",
-        "description": "An incomplete set of videos for the vast amount of car tech projects I've done",
-        "url": "https://www.youtube.com/watch?v=7EtFuVoZgu4&list=PL3fIIFgD61Tm67tLSPC4t_ghn8S8YvB7y",
+        "description": "An short set of videos for the vast amount of car tech projects I've done",
+        "url": "https://www.youtube.com/watch?v=O5943bmkQc0&list=PL3fIIFgD61Tm67tLSPC4t_ghn8S8YvB7y&index=1",
         "imgObj": {
             "src": "/static/gif/canbus.gif",
             "loading": "/static/canbus.png"
