@@ -35,14 +35,16 @@
         "audio": "/static/audio/cellular.mp3"
     },
     {
-        "title": "VRML Museum",
-        "description": "Using WebGL and many assets from the Internet Archive I wanted to experiment with the VR Markup Language the late 90's",
-        "url": "http://cybertown-museum.theoldnet.com/",
+        "title": "Car Tech Projects",
+        "description": "An incomplete set of videos for the vast amount of car tech projects I've done",
+        "url": "https://www.youtube.com/watch?v=7EtFuVoZgu4&list=PL3fIIFgD61Tm67tLSPC4t_ghn8S8YvB7y",
         "imgObj": {
-            "src": "/static/gif/vrml.gif",
-            "loading": "/static/gif/vrml-preview.gif"
-        }
-    },      
+            "src": "/static/gif/canbus.gif",
+            "loading": "/static/canbus.png"
+        },
+        "audio": "/static/audio/car.mp3"
+ 
+    },
     {
         "title": "DemLinks.com",
         "description": "It's not the links site that the world deserved. It was the links site that the world needed.",
@@ -85,7 +87,18 @@
         "url": "http://supermarkupworld.com",
         "image": "/static/supermarkupworld.png",
         "audio": "/static/audio/supermarkupworld.mp3"     
-    }, {
+    }, 
+    {
+        "title": "VRML Museum",
+        "description": "Using WebGL and many assets from the Internet Archive I wanted to experiment with the VR Markup Language the late 90's",
+        "url": "http://cybertown-museum.theoldnet.com/",
+        "imgObj": {
+            "src": "/static/gif/vrml.gif",
+            "loading": "/static/gif/vrml-preview.gif"
+        }
+    },      
+
+    {
             "title": "DaGGaSoft.com",
             "description": "You can see all of my games here from game jams / hackathons, experiments, retail releases and contract work.",
             "url": "http://daggasoft.com",
@@ -102,15 +115,7 @@
         "description": "Defined job task domains and competencies, wrote and reviewed certification content, and determined the passing score for the exam.",
         "url": "https://www.youracclaim.com/badges/a213bf3f-e0b4-4957-a811-ebee72fcb647/linked_in",
         "image": "/static/linux.png"
-    }, {
-        "title": "Car Tech Projects",
-        "description": "An incomplete set of videos for the vast amount of car tech projects I've done",
-        "url": "https://www.youtube.com/watch?v=7EtFuVoZgu4&list=PL3fIIFgD61Tm67tLSPC4t_ghn8S8YvB7y",
-        "image": "/static/car/car2.jpg",
-        "audio": "/static/audio/car.mp3",
-        "slideshow": true,
-        "slideshowImages": ["/static/car/car1.jpg", "/static/car/car2.jpg", "/static/car/car3.jpg", "/static/car/car4.jpg", "/static/car/car5.jpg", "/static/car/car7.jpg"]         
-    }, {
+   }, {
         
         "title": "@DaGGaSoft",
         "description": "Looking at my game developer twitter posts gives a good idea about my work.",
